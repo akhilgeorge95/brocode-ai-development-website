@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 48" role="img" aria-label="Microsoft Azure">
+  <path d="M6 36 L20 12 L34 36 L24 36 L20 28 L12 36 Z" fill="#0089D6"/>
+  <path d="M22 30 L29 16 L40 16 L33 30 Z" fill="#0078D4"/>
+  <text x="48" y="30" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-weight="600" font-size="18" fill="#0078D4" letter-spacing="-0.5">Azure</text>
+</svg>

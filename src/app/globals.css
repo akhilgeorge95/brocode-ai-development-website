@@ -1,0 +1,178 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-bg: #ffffff;
+    --color-bg-muted: #f6f8fb;
+    --color-ink: #0a0e1a;
+    --color-brand: #0070f2;
+    --color-accent: #00d1b7;
+    --header-height: 72px;
+  }
+
+  html {
+    scroll-behavior: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    background: var(--color-bg);
+    color: var(--color-ink);
+    font-family: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11', 'ss01';
+  }
+
+  ::selection {
+    background: rgba(0, 112, 242, 0.2);
+    color: var(--color-ink);
+  }
+
+  *:focus-visible {
+    outline: 2px solid var(--color-brand);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  /* Reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  .container-site {
+    @apply mx-auto w-full max-w-site px-6 md:px-10;
+  }
+
+  .eyebrow {
+    @apply text-eyebrow uppercase text-brand;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-semibold transition duration-200 ease-out-quart;
+  }
+
+  .btn-primary {
+    @apply btn bg-ink-900 text-white hover:bg-brand;
+  }
+
+  .btn-secondary {
+    @apply btn border border-ink-200 bg-white text-ink-900 hover:border-ink-900;
+  }
+
+  .btn-ghost {
+    @apply btn bg-transparent text-ink-900 hover:text-brand;
+  }
+
+  .card {
+    @apply rounded-xl2 border border-ink-100 bg-white p-7 shadow-card transition-all duration-300 ease-out-quart hover:-translate-y-1 hover:shadow-card-hover hover:border-brand-200;
+  }
+
+  .link-arrow::after {
+    content: '→';
+    margin-left: 0.4rem;
+    display: inline-block;
+    transition: transform 200ms cubic-bezier(0.25, 1, 0.5, 1);
+  }
+
+  .link-arrow:hover::after {
+    transform: translateX(3px);
+  }
+
+  .prose-site {
+    @apply text-ink-700 leading-relaxed;
+  }
+
+  .prose-site p {
+    @apply mb-5 text-[1.0625rem];
+  }
+
+  .prose-site h2 {
+    @apply text-display-md text-ink-900 mt-12 mb-5;
+  }
+
+  .prose-site h3 {
+    @apply text-2xl font-semibold text-ink-900 mt-10 mb-4;
+  }
+
+  .prose-site ul {
+    @apply mb-5 space-y-2 pl-5;
+  }
+
+  .prose-site li {
+    @apply text-[1.0625rem] list-disc text-ink-700;
+  }
+
+  .prose-site a {
+    @apply text-brand hover:underline underline-offset-4;
+  }
+}
+
+@keyframes marquee {
+  from { transform: translate3d(0, 0, 0); }
+  to { transform: translate3d(-50%, 0, 0); }
+}
+.animate-marquee { animation: marquee linear infinite; will-change: transform; }
+
+@keyframes mesh-1 {
+  0%, 100% { transform: translate3d(0, 0, 0) scale(1); }
+  50% { transform: translate3d(40px, -30px, 0) scale(1.08); }
+}
+@keyframes mesh-2 {
+  0%, 100% { transform: translate3d(0, 0, 0) scale(1); }
+  50% { transform: translate3d(-50px, 40px, 0) scale(1.05); }
+}
+@keyframes mesh-3 {
+  0%, 100% { transform: translate3d(0, 0, 0) scale(1); }
+  50% { transform: translate3d(20px, 50px, 0) scale(1.1); }
+}
+.animate-mesh-1 { animation: mesh-1 16s ease-in-out infinite; }
+.animate-mesh-2 { animation: mesh-2 22s ease-in-out infinite; }
+.animate-mesh-3 { animation: mesh-3 28s ease-in-out infinite; }
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .text-gradient {
+    background: linear-gradient(135deg, #0a0e1a 0%, #0070f2 60%, #00d1b7 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .mask-fade-b {
+    mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+  }
+
+  .grid-fade {
+    background-image: linear-gradient(rgba(10, 14, 26, 0.06) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(10, 14, 26, 0.06) 1px, transparent 1px);
+    background-size: 56px 56px;
+    mask-image: radial-gradient(circle at center, black 0%, transparent 70%);
+  }
+
+  .reveal {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 700ms cubic-bezier(0.25, 1, 0.5, 1), transform 700ms cubic-bezier(0.25, 1, 0.5, 1);
+    will-change: opacity, transform;
+  }
+
+  .reveal.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

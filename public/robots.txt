@@ -1,0 +1,7 @@
+# robots.txt — Brocode Solutions (https://www.brocode.ae)
+# Production policy: allow indexing of all public pages.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.brocode.ae/sitemap.xml
