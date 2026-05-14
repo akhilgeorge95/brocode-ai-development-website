@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'MLOps & AI Infrastructure — Brocode',
-    description: 'Platform-in-a-Box. 16 weeks. Your Kubernetes, any cloud, on-prem, or sovereign. Senior engineers, fixed fee.'
+    description: 'MLOps platform build. 16 weeks. Your Kubernetes, any cloud, on-prem, or sovereign. Senior engineers, fixed fee.'
   }
 };
 
@@ -180,7 +180,7 @@ const faqs: FAQItem[] = [
       'Every component is open source with a public release cadence. MLflow, BentoML, Ray, Arize OSS, Evidently, Argo CD, OPA — your SREs patch them the same way they patch the rest of the cluster. We deliver a documented patching runbook for each component, plus a quarterly compatibility matrix so upgrades are known-safe. There is no Brocode-proprietary component in the critical path of any model serving.'
   },
   {
-    question: 'How does the 16-week Platform-in-a-Box actually run?',
+    question: 'How does the 16-week MLOps platform build actually run?',
     answer:
       'Weeks 1–4 are discovery and landing-zone: existing estate review, target architecture, network and IAM design, environment provisioning. Weeks 5–10 are platform install plus three reference models migrated end-to-end through the canary pattern. Weeks 11–14 are production hardening — SLOs, on-call runbooks, DR plan, governance pack. Weeks 15–16 are enablement: your engineers shadow ours, then we shadow them, then we sign off and leave.'
   },
@@ -290,7 +290,7 @@ const cases = [
 const proofItems = [
   { value: '11 → 6', label: 'Weeks → days median time-to-production' },
   { value: '14', label: 'Hardened deployments across UAE / KSA' },
-  { value: '16 weeks', label: 'Fixed-fee Platform-in-a-Box delivery' },
+  { value: '16 weeks', label: 'Fixed-fee MLOps platform build delivery' },
   { value: '113', label: 'Days until your team operates without us' }
 ];
 
@@ -312,7 +312,7 @@ export default function MlopsPage() {
             <div className="lg:col-span-5">
               <Reveal>
                 <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#76B900]">
-                  Platform-in-a-Box · 16 weeks · Any Kubernetes
+                  MLOps platform build · 16 weeks · Any Kubernetes
                 </p>
                 <h1 className="mt-5 text-balance text-display-xl">
                   A vendor-neutral ML platform on your Kubernetes. Operated by your team on day one.
@@ -471,7 +471,7 @@ export default function MlopsPage() {
       <section className="bg-[#F6F8FB] py-24">
         <div className="container-site">
           <SectionHeading
-            eyebrow="16-week Platform-in-a-Box"
+            eyebrow="16-week MLOps platform build"
             title="Week-by-week. Fixed fee. Named senior engineers on the SoW."
             description="The plan we have run 14 times. Adjusted to your existing estate but never re-scoped halfway through — the SoW is the contract, not a starting position."
           />

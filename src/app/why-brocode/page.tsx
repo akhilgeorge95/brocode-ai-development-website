@@ -369,6 +369,28 @@ export default function WhyBrocodePage() {
         </div>
       </section>
 
+      {/* Services-only positioning */}
+      <section className="bg-surface-muted py-16">
+        <div className="container-site">
+          <div className="mx-auto max-w-3xl rounded-2xl border border-ink-100 bg-white p-7 md:p-10">
+            <p className="text-xs font-semibold uppercase tracking-[0.18em] text-brand">
+              Before you read the matrix
+            </p>
+            <h3 className="mt-3 text-2xl font-semibold leading-snug text-ink-900">
+              We compete on the services axis only. No Brocode product is on offer.
+            </h3>
+            <p className="mt-4 text-ink-700">
+              The comparison below is a partner-vs-partner comparison: who does the engineering
+              work. None of the partners on the matrix sell you a Brocode SaaS, a Brocode-licensed
+              model, or a Brocode-managed platform — including us. Every system we build for you
+              uses open-source frameworks and portable commercial software that you license
+              directly from the vendor. The artefact at the end of every engagement is a working
+              system you own outright, not a subscription you continue to pay us for.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Why this page exists */}
       <section className="bg-white py-22 md:py-30">
         <div className="container-site max-w-3xl">

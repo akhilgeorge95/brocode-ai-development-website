@@ -168,12 +168,24 @@ export default function AboutPage() {
                 Dubai and Abu Dhabi
               </span>
               <span className="rounded-full border border-white/20 bg-white/5 px-4 py-2 text-sm font-medium backdrop-blur">
+                Services only — no Brocode-branded product
+              </span>
+              <span className="rounded-full border border-white/20 bg-white/5 px-4 py-2 text-sm font-medium backdrop-blur">
                 ISO 27001 + SOC 2 Type II
               </span>
               <span className="rounded-full border border-white/20 bg-white/5 px-4 py-2 text-sm font-medium backdrop-blur">
                 ISO 42001 attested
               </span>
             </div>
+            <p className="mt-7 max-w-2xl rounded-2xl border border-white/15 bg-white/5 p-5 text-sm leading-relaxed text-white/80 backdrop-blur">
+              <strong className="text-white">What we are:</strong> a UAE-headquartered AI software
+              development services firm. We design and build bespoke AI systems for one client
+              at a time and hand them over.{' '}
+              <strong className="text-white">What we are not:</strong> a product company. We do
+              not sell SaaS, licensed models, a Brocode platform, or a Brocode-branded API. If a
+              vendor positioning sounds like an annual product subscription, that vendor is not
+              us.
+            </p>
           </div>
         </div>
       </section>

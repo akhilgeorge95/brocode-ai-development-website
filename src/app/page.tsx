@@ -234,6 +234,11 @@ const compareRows: CompareRow[] = [
 
 const faqItems: FAQItem[] = [
   {
+    question: 'Do you sell any AI products, SaaS, or licensed models?',
+    answer:
+      'No. Brocode Solutions is a services firm. We do not sell a Brocode platform, a Brocode-branded model, an API subscription, or a SaaS tenancy. Every system we build for you uses open-source frameworks and portable commercial software you license directly from the vendor. The code, the models, the weights, and the infrastructure belong to you on creation, and the engineered handover is part of the standard deliverable — not a separate workstream. If you ever need to walk away from us, the system keeps working.'
+  },
+  {
     question: "I've never heard of Brocode. Have you delivered for a UAE enterprise of our profile?",
     answer:
       'We have shipped production systems for Tier-1 UAE banks, federal entities, a GCC telco, and ADNOC-tier energy operators. Client names sit under written consent only. We will share three reference contacts on the first call so you can verify the work, the rhythm, and the rate against your own peers.'
@@ -416,12 +421,13 @@ export default function HomePage() {
             <Reveal>
               <p className="eyebrow mb-4">A different kind of AI partner</p>
               <h2 className="text-display-lg text-balance text-ink-900">
-                Engineers, not slideware.
+                A services firm, not a product company.
               </h2>
               <p className="mt-5 max-w-md text-lg leading-relaxed text-ink-600">
-                Every engagement runs as a fixed-shape pod with named UAE-resident engineers, a
-                written 12-week production path, and a regulator-aligned handover pack. The
-                people you meet at the first call are the people who write your code.
+                We do not sell AI products, SaaS, licensed models, or branded platforms. We sell
+                senior engineering time. Every engagement runs as a fixed-shape pod with named
+                UAE-resident engineers, a written 12-week production path, and a regulator-aligned
+                handover pack — and at the end, the system belongs to you.
               </p>
             </Reveal>
           </div>
@@ -433,8 +439,24 @@ export default function HomePage() {
                 short. We sit in Abu Dhabi and Dubai, contract under UAE law, bill in AED, and
                 deploy to whichever sovereign cloud, on-premise rack or hyperscaler tenancy your
                 data residency posture requires. The partners you meet on the first call are
-                principal engineers, not pre-sales — and they stay on the engagement.
+                principal engineers, not pre-sales — and the artefact at the end of every
+                engagement is a running system you own outright, not a subscription to a
+                Brocode service.
               </p>
+            </Reveal>
+            <Reveal delay={0.1}>
+              <ul className="mt-7 grid grid-cols-1 gap-3 sm:grid-cols-3">
+                {[
+                  { t: 'We build', d: 'Bespoke AI systems for your data, your stack, your regulator.' },
+                  { t: 'You own', d: 'Code, models, weights, infrastructure — yours on creation.' },
+                  { t: 'We hand over', d: 'Engineered transition to your team. No vendor lock-in.' }
+                ].map((card) => (
+                  <li key={card.t} className="rounded-2xl border border-ink-100 bg-surface-muted p-5">
+                    <p className="text-xs font-semibold uppercase tracking-wider text-brand">{card.t}</p>
+                    <p className="mt-2 text-sm text-ink-700">{card.d}</p>
+                  </li>
+                ))}
+              </ul>
             </Reveal>
           </div>
         </div>

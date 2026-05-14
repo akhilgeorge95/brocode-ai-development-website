@@ -25,7 +25,7 @@ const PAGE_URL = '/technology/quality-assurance';
 export const metadata: Metadata = {
   title: 'Quality Assurance for AI — Eval, Bias, Red-Team, Drift | Brocode',
   description:
-    'The full test suite behind every Brocode model in production — eval harness, regression, bias and fairness (Fairlearn + AIF360), drift (Evidently), LLM red-teaming (garak), adversarial robustness (ART), guardrails (NeMo + Llama Guard 3). Audit-evidence bundle mapped to CBUAE, FSRA, NCA and ISO 42001.',
+    'The full test suite we apply to every AI system we deliver for a client — eval harness, regression, bias and fairness (Fairlearn + AIF360), drift (Evidently), LLM red-teaming (garak), adversarial robustness (ART), guardrails (NeMo + Llama Guard 3). Audit-evidence bundle mapped to CBUAE, FSRA, NCA and ISO 42001.',
   alternates: { canonical: PAGE_URL },
   openGraph: {
     title: '2026 Audit-Evidence Bundle for AI — Brocode',
@@ -135,7 +135,7 @@ const CATEGORIES: Category[] = [
   {
     id: 'guardrails',
     name: 'Guardrails plane in production',
-    frameworks: ['NeMo Guardrails', 'Llama Guard 3', 'Brocode Arabic policy classifier'],
+    frameworks: ['NeMo Guardrails', 'Llama Guard 3', 'Bespoke Arabic policy classifier (we train inside your engagement repo)'],
     thresholds: 'WORM logging of every prompt and response; latency budget for the guardrails chain agreed at G2',
     description: 'NVIDIA NeMo Guardrails plus Llama Guard 3 plus an Arabic policy classifier, with prompt and response logging to a tamper-evident WORM store for the audit trail. Composition order documented in the relevant ADR.'
   }
@@ -237,17 +237,17 @@ const FAQ_ITEMS: FAQItem[] = [
   {
     question: 'How is the guardrails chain composed and why?',
     answer:
-      'The composition order is: NeMo Guardrails (policy and topic enforcement) → Llama Guard 3 (content classifier on input and output) → Brocode Arabic policy classifier (Arabic and dialect-specific content). The order is documented in ADR-028 of the engagement repo, with the reasoning and the latency budget. Every prompt and response is logged to a WORM store for the audit trail; the retention period is set per the relevant regulator.'
+      'The composition order is: NeMo Guardrails (policy and topic enforcement) → Llama Guard 3 (content classifier on input and output) → a bespoke Arabic policy classifier we train inside your engagement repository on your own taxonomy and labelled data. There is no Brocode-branded classifier sold or licensed externally; the classifier you go live with belongs to you. The order is documented in ADR-028 of the engagement repo, with the reasoning and the latency budget. Every prompt and response is logged to a WORM store for the audit trail; the retention period is set per the relevant regulator.'
   },
   {
     question: 'Does this replace our existing model-risk function?',
     answer:
-      'No — it supports it. The audit-evidence bundle is built to be attached to your existing model-risk submission, not to replace your model-risk function. We work alongside your second and third lines of defence, document our thresholds with them, and hand the bundle over for sign-off. The bundle template is in the lead magnet so your team can adopt it as a default for non-Brocode models too.'
+      'No — it supports it. The audit-evidence bundle is built to be attached to your existing model-risk submission, not to replace your model-risk function. We work alongside your second and third lines of defence, document our thresholds with them, and hand the bundle over for sign-off. The bundle template is in the lead magnet so your team can adopt it as a default for any model in your estate, whether it came from us or not.'
   }
 ];
 
 const PROOF_ITEMS = [
-  { value: '7', label: 'Test categories on every model' },
+  { value: '7', label: 'Test categories on every model we deliver' },
   { value: '11d', label: 'Average approval cycle (was 9 weeks)' },
   { value: '4', label: 'Regulators mapped (CBUAE / FSRA / NCA / ISO 42001)' },
   { value: '0', label: 'Unmitigated category-1 red-team findings at G3' }
@@ -267,7 +267,7 @@ export default function QualityAssurancePage() {
     '@type': 'TechArticle',
     headline: '2026 Audit-Evidence Bundle for AI — Brocode',
     description:
-      'The full test suite behind every Brocode model in production, packaged as an audit-evidence bundle for CBUAE, FSRA, NCA and ISO 42001.',
+      'The full test suite behind every model we ship for a client, packaged as an audit-evidence bundle for CBUAE, FSRA, NCA and ISO 42001.',
     url: `https://brocode.ae${PAGE_URL}`,
     image: 'https://brocode.ae/images/technology/quality-assurance.jpg',
     author: { '@type': 'Organization', name: 'Brocode Solutions' }

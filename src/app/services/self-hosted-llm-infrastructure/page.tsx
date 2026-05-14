@@ -542,7 +542,7 @@ export default function SelfHostedLlmPage() {
           <Reveal>
             <div className="mt-12">
               <CompareTable
-                brandLabel="Brocode appliance"
+                brandLabel="Brocode-installed appliance"
                 competitors={[
                   'Azure OpenAI UAE North',
                   'OpenAI Enterprise',

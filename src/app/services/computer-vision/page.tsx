@@ -162,7 +162,7 @@ const objections = [
     objection:
       'We have already paid for Cognex and Keyence sensors. You can\'t expect us to rip them out. How do you co-exist with the rig we own?',
     response:
-      'We do not rip anything out. The Brocode appliance reads the existing Cognex or Keyence pass/fail signal, adds a learned layer on top, and writes its own reject event downstream. The two systems run in parallel during commissioning; you see the per-defect-class delta on the same dashboard before flipping the rejector authority. If the Brocode layer underperforms, the rejector authority stays with the rule-based rig.',
+      'We do not rip anything out. The appliance we install for you reads the existing Cognex or Keyence pass/fail signal, adds a learned layer on top, and writes its own reject event downstream. The two systems run in parallel during commissioning; you see the per-defect-class delta on the same dashboard before flipping the rejector authority. If the Brocode layer underperforms, the rejector authority stays with the rule-based rig.',
     proof: 'Proof: anonymised regional retail reference - shrink reduction from 1.6% to 0.74% across 84 stores in 11 months, running alongside the existing Tyco Sensormatic EAS without modification.'
   }
 ];
@@ -430,7 +430,7 @@ export default function ComputerVisionPage() {
               },
               {
                 title: 'Lighting drift over a shift',
-                body: 'A panel-mounted vision rig calibrated to morning ambient becomes a false-positive generator by 16:00. The Brocode model is robust to seasonal and shift-time lighting variation by design - the corpus is balanced for it.'
+                body: 'A panel-mounted vision rig calibrated to morning ambient becomes a false-positive generator by 16:00. The bespoke model we build for you is robust to seasonal and shift-time lighting variation by design - the corpus is balanced for it.'
               }
             ].map((g) => (
               <Reveal key={g.title}>

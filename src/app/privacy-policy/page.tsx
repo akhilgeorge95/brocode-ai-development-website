@@ -311,7 +311,7 @@ export default function PrivacyPolicyPage() {
             <div id="how-we-use">
               <h2 className="text-2xl font-semibold text-ink-900">5. How we use your data</h2>
               <p className="mt-4">
-                We use personal data to respond to enquiries you initiate, to deliver the services agreed under contract, to operate and improve the website, to send the marketing communications you have opted into, to recruit for open roles, to monitor for security incidents and fraud, and to meet our legal and regulatory obligations as a UAE registered entity. We do not sell personal data, we do not engage in cross-context behavioural advertising, and we do not use customer-supplied training data (handled under separate DPAs) to improve generic Brocode models without explicit, contracted permission.
+                We use personal data to respond to enquiries you initiate, to deliver the services agreed under contract, to operate and improve the website, to send the marketing communications you have opted into, to recruit for open roles, to monitor for security incidents and fraud, and to meet our legal and regulatory obligations as a UAE registered entity. We do not sell personal data, we do not engage in cross-context behavioural advertising, and we do not maintain Brocode-branded foundation models. Customer-supplied training data is handled under the engagement DPA and is only ever used to train or evaluate the bespoke model we build for that customer — never re-used across customers or recycled into shared assets.
               </p>
               <p className="mt-3 text-sm text-ink-600"><em>PDPL Arts. 4, 8; GDPR Arts. 5(1)(b), 6, 22; DIFC DP Law Arts. 9–10.</em></p>
             </div>

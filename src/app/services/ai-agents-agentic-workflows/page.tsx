@@ -284,7 +284,7 @@ const faqItems = [
   {
     question: 'How is the model deprecation problem handled — what if Claude or GPT changes behaviour?',
     answer:
-      'The Brocode model router picks per step from Claude Sonnet 4.5, GPT-5 reasoning, Llama 3.3 70B fine-tunes and Mistral-Large-2. A weekly regression suite scores each candidate on the customer\'s golden scenarios; a step-level model change requires a new release through the same governance gates. For workloads with sovereignty constraints, the Llama 3.3 fine-tune runs in customer VPC and is the default.'
+      'The model router we configure picks per step from Claude Sonnet 4.5, GPT-5 reasoning, Llama 3.3 70B fine-tunes and Mistral-Large-2. A weekly regression suite scores each candidate on the customer\'s golden scenarios; a step-level model change requires a new release through the same governance gates. For workloads with sovereignty constraints, the Llama 3.3 fine-tune runs in customer VPC and is the default.'
   },
   {
     question: 'How do you measure ROI without inflating the number?',

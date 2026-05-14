@@ -272,12 +272,12 @@ const faqItems: FAQItem[] = [
   {
     question: 'We run Yardi and MRI. Are you asking us to migrate?',
     answer:
-      'No. The Brocode model writes to your existing financial estate. Named connectors exist for Yardi Voyager, MRI Software, Oracle JD Edwards, Oracle Property Manager and SAP RE-FX. The leasing pipeline model writes back into Salesforce or Microsoft Dynamics opportunities. No data warehouse rip-and-replace and no migration story.'
+      'No. The bespoke model we build for you writes to your existing financial estate. Named connectors exist for Yardi Voyager, MRI Software, Oracle JD Edwards, Oracle Property Manager and SAP RE-FX. The leasing pipeline model writes back into Salesforce or Microsoft Dynamics opportunities. No data warehouse rip-and-replace and no migration story.'
   },
   {
     question: 'How is the off-plan model different from a property-portal AVM?',
     answer:
-      'Property-portal AVMs are trained on listing data and tend to report city or community medians. The Brocode model trains on actual DLD transfer prices, uses tower-and-floor-level features, applies a hedonic plus tree-ensemble blend, and reports unit-level estimates with documented confidence intervals. The lead-magnet report covers the back-test against three public AVMs on a 5,000-unit Dubai sample.'
+      'Property-portal AVMs are trained on listing data and tend to report city or community medians. The bespoke model we build for you trains on actual DLD transfer prices, uses tower-and-floor-level features, applies a hedonic plus tree-ensemble blend, and reports unit-level estimates with documented confidence intervals. The lead-magnet report covers the back-test against three public AVMs on a 5,000-unit Dubai sample.'
   },
   {
     question: 'How often does the model retrain and who owns the retraining?',
@@ -646,7 +646,7 @@ export default function RealEstateProptechPage() {
           <LeadMagnetGate
             pageSlug={PAGE_SLUG}
             title="Dubai Off-Plan Valuation Accuracy Report"
-            description="28-page PDF with a unit-by-tower-by-community accuracy matrix on a 5,000-unit Dubai sample. Brocode model versus three publicly available AVMs and a hedonic baseline, plus the seven data-quality issues in RERA/DLD feeds that distort off-plan price models."
+            description="28-page PDF with a unit-by-tower-by-community accuracy matrix on a 5,000-unit Dubai sample. Our delivered model versus three publicly available AVMs and a hedonic baseline, plus the seven data-quality issues in RERA/DLD feeds that distort off-plan price models."
             contents={[
               'Unit-level MAPE: 3.7% Brocode vs 11.4% best public AVM',
               'Tower-by-tower accuracy matrix across 12 communities',

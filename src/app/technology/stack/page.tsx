@@ -239,9 +239,9 @@ const STACK_PLANES: { name: string; versions: { tool: string; version: string }[
       { tool: 'DVC', version: '3.55' },
       { tool: 'Weights & Biases', version: 'enterprise' },
       { tool: 'Evidently AI', version: '0.4' },
-      { tool: 'Brocode eval-harness', version: 'v3' }
+      { tool: 'Argilla', version: '2.2' }
     ],
-    note: 'Ray for distributed training, MLflow as the experiment store and model registry, DVC for dataset versioning. Evidently and the Brocode eval-harness cover drift and bias.'
+    note: 'Ray for distributed training, MLflow as the experiment store and model registry, DVC for dataset versioning. Evidently covers drift and bias; Argilla supports the human-in-the-loop evaluation we run with your team for every release.'
   },
   {
     name: 'Serving & infrastructure plane',
@@ -273,10 +273,9 @@ const STACK_PLANES: { name: string; versions: { tool: string; version: string }[
     versions: [
       { tool: 'NeMo Guardrails', version: '0.10' },
       { tool: 'Llama Guard 3', version: '8B' },
-      { tool: 'Brocode Arabic policy classifier', version: 'v2' },
-      { tool: 'WORM audit store', version: 'managed' }
+      { tool: 'WORM audit store', version: 'client-hosted' }
     ],
-    note: 'NVIDIA NeMo Guardrails and Llama Guard 3 sit on the request-and-response path with an in-house Arabic policy classifier. Prompt and response logging is written to a tamper-evident store.'
+    note: 'NeMo Guardrails and Llama Guard 3 sit on the request-and-response path; where Arabic policy classification is needed, we train a bespoke classifier inside your engagement repository on your taxonomy. Prompt and response logging is written to a tamper-evident store you own.'
   }
 ];
 
@@ -333,7 +332,7 @@ const FAQ_ITEMS: FAQItem[] = [
   {
     question: 'How do you decide when to upgrade a pinned version?',
     answer:
-      "We re-evaluate every pin quarterly against four criteria: security patches landed upstream, breaking-change blast radius across our reference architectures, ecosystem readiness (libraries, drivers, deployment manifests), and whether a current client is asking for a feature only the new version provides. Upgrades are batched into a single quarterly stack release with a written migration note and a re-run of the Brocode eval-harness."
+      "We re-evaluate every pin quarterly against four criteria: security patches landed upstream, breaking-change blast radius across our reference architectures, ecosystem readiness (libraries, drivers, deployment manifests), and whether a current client is asking for a feature only the new version provides. Upgrades are batched into a single quarterly stack release with a written migration note and a re-run of the evaluation suite we maintain as a methodology."
   },
   {
     question: 'Is this stack portable to our environment, or do we end up on a Brocode-only runtime?',
@@ -521,11 +520,14 @@ export default function StackPage() {
             <Reveal delay={0.05}>
               <p>
                 Every component is opinionated for a reason. Every alternative we considered is
-                documented. Every plane has a fallback we have actually rehearsed. Nothing here
-                requires a Brocode-managed runtime, a proprietary file format, or a licence held
-                by us. If you walk away from this engagement six years from now and run this
-                stack inside your own organisation with your own engineers, it will keep working
-                — and that is the only acceptable test for a serious enterprise architecture.
+                documented. Every plane has a fallback we have actually rehearsed.{' '}
+                <strong className="text-ink-900">Brocode is a services firm — we do not sell
+                a Brocode platform, a Brocode runtime, or a Brocode-branded model.</strong>{' '}
+                Every component on this page is open source or a portable commercial product
+                that you license directly from its vendor. If you walk away from the engagement
+                six years from now and run this stack inside your own organisation with your own
+                engineers, it will keep working — and that is the only acceptable test for a
+                serious enterprise architecture.
               </p>
             </Reveal>
           </div>
@@ -743,7 +745,7 @@ export default function StackPage() {
           <div className="lg:col-span-7">
             <ol className="space-y-3">
               {[
-                { n: '00:00', t: 'Repository tour', d: 'Live view of STACK.md, the ADR index, the Terraform module skeleton, and the eval-harness CI run.' },
+                { n: '00:00', t: 'Repository tour', d: 'Live view of STACK.md, the ADR index, the Terraform module skeleton, and a recent evaluation-suite CI run on a representative client engagement.' },
                 { n: '00:15', t: 'Your environment, our pins', d: 'How each plane lands in AWS UAE North / Azure UAE North / OCI Abu Dhabi / G42 / Khazna — with the variable changes called out.' },
                 { n: '00:30', t: 'The ADRs you flag', d: 'You pick three ADRs to read in detail. We open the repo and walk the reasoning.' },
                 { n: '00:50', t: 'Q&A and exit', d: 'You leave with the ADR titles you read, a follow-up note within 24 hours, and the reference architecture pack.' }

@@ -302,7 +302,7 @@ const faqItems = [
   {
     question: 'How does this co-exist with o9, SAP IBP, Anaplan or Blue Yonder?',
     answer:
-      'We are model-and-data partners alongside any of these planning suites, not a competing suite. The Brocode model produces the forecast; the planning suite consumes it through the integration the customer already owns. The UAE retailer reference runs o9 alongside the Brocode forecast; the model output replaces the suite\'s native forecaster on the segments where it lifts MAPE.'
+      'We are model-and-data partners alongside any of these planning suites, not a competing suite. The bespoke model we build for you produces the forecast; the planning suite consumes it through the integration the customer already owns. The UAE retailer reference runs o9 alongside the bespoke forecast we built for them; the model output replaces the suite\'s native forecaster on the segments where it lifts MAPE.'
   },
   {
     question: 'What about cash-flow forecasting at treasury level?',
@@ -551,7 +551,7 @@ export default function PredictiveAnalyticsPage() {
       <section className="bg-white py-22 md:py-28">
         <div className="container-site">
           <SectionHeading
-            eyebrow="The Brocode model stack"
+            eyebrow="The model stack we deliver"
             title="Problem → recommended model family. No one-size-fits-all."
             description="The right family per problem class, with the trade-offs we routinely explain to risk and finance reviewers."
           />

@@ -42,7 +42,7 @@ const STORIES = [
   { sector: 'Education', headline: 'Arabic adaptive learning for a UAE school group', outcome: 'Year-on-year MAP-test gain 18 % above the control cohort.' },
   { sector: 'Hospitality', headline: 'Dynamic pricing during Hajj and Ramadan for a luxury group', outcome: 'RevPAR uplift 12.3 %; ADR uplift 8.9 % vs prior-year comparable.' },
   { sector: 'Conversational AI', headline: 'Khaleeji-tuned assistant for a UAE telco contact centre', outcome: 'Containment 62 % on Arabic chat; AHT down 41 % on Khaleeji voice.' },
-  { sector: 'MLOps', headline: 'Platform-in-a-Box for a sovereign tech holding', outcome: 'Model deployment cycle 19 days → 1.7 days; rollback time 4 hours → 6 minutes.' }
+  { sector: 'MLOps', headline: 'MLOps platform build for a sovereign tech holding', outcome: 'Model deployment cycle 19 days → 1.7 days; rollback time 4 hours → 6 minutes.' }
 ];
 
 const PROOF = [

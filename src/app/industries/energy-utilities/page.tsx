@@ -280,7 +280,7 @@ const faqItems: FAQItem[] = [
   {
     question: 'How do you coexist with the AspenTech, Honeywell and AVEVA stack that is already running?',
     answer:
-      'The Brocode model lives on the historian and the APC layer remains the system of action. We write advisory signals into a coexistence layer that the operator can ignore, accept or escalate. AspenTech RT-Opt, Honeywell Profit Suite and AVEVA APC stay as they are. We document the handover in writing before the SoW.'
+      'The bespoke model we build for you lives on the historian and the APC layer remains the system of action. We write advisory signals into a coexistence layer that the operator can ignore, accept or escalate. AspenTech RT-Opt, Honeywell Profit Suite and AVEVA APC stay as they are. We document the handover in writing before the SoW.'
   },
   {
     question: 'Can you deliver without our data leaving the country?',
@@ -576,7 +576,7 @@ export default function EnergyUtilitiesPage() {
             <SectionHeading
               eyebrow="Integration mechanism"
               title="PI-native and AVEVA-native by default."
-              description="Brocode models read the asset frame, write to coexistence layers and respect the OT zone the cyber team has drawn. No data warehouse migration; no upstream data leaving the country."
+              description="bespoke model we build for yous read the asset frame, write to coexistence layers and respect the OT zone the cyber team has drawn. No data warehouse migration; no upstream data leaving the country."
             />
           </div>
           <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:col-span-7">

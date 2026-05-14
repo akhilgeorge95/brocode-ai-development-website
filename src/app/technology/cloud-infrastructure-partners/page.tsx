@@ -498,7 +498,8 @@ export default function CloudInfrastructurePartnersPage() {
                   <p className="mt-1 font-semibold text-ink-900">Khazna on-premise appliance</p>
                   <p className="text-ink-600">
                     NVIDIA DGX appliance behind the client firewall for the most sensitive
-                    documents; Brocode-managed control plane; client-owned HSM.
+                    documents; client-owned control plane that we install and the client
+                    operates; client-owned HSM throughout.
                   </p>
                 </li>
                 <li>
