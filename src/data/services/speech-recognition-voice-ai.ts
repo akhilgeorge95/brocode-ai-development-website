@@ -4,9 +4,9 @@ export const speechRecognitionVoiceAi: LongPage = {
   slug: 'speech-recognition-voice-ai',
   category: 'service',
   title: 'Speech Recognition & Voice AI',
-  seoTitle: 'Arabic Speech Recognition & Voice AI Services in the UAE',
+  seoTitle: 'Arabic Speech Recognition & Voice AI Services in Dubai, Abu Dhabi & the UAE',
   seoDescription:
-    'Brocode Solutions builds Arabic and bilingual speech recognition, voice biometrics, and conversational voice systems for banks, government, and contact centres across the GCC.',
+    'Brocode Solutions builds Arabic and bilingual speech recognition, voice biometrics, and conversational voice systems for banks, government, and contact centres in Abu Dhabi, Dubai, and across the wider UAE and GCC.',
   eyebrow: 'Arabic and bilingual voice systems',
   headline: 'Voice AI that understands Gulf Arabic, MSA, and the way people actually speak.',
   sub: 'We engineer speech recognition, voice biometrics, and conversational voice systems tuned for Khaleeji and Levantine dialects, code-switching, and the realities of regional contact centres.',

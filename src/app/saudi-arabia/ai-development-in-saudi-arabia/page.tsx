@@ -18,62 +18,74 @@ import { LeadMagnetGate } from '@/components/forms/LeadMagnetGate';
 import type { PageFormConfig } from '@/components/forms/types';
 import { buildWhatsAppLink, SITE } from '@/lib/site';
 
-const PAGE_SLUG = 'home';
+const PAGE_SLUG = 'saudi-arabia-ai-development';
+const PAGE_PATH = '/saudi-arabia/ai-development-in-saudi-arabia';
+const PAGE_URL = `${SITE.url}${PAGE_PATH}`;
+
 const WHATSAPP_MESSAGE =
-  "Hi Brocode — I'm exploring AI delivery partners for [organisation]. The first area we want to discuss is [document intelligence / NLP / chatbot / ML / deep learning / MLOps / generative AI / not sure yet]. Could we schedule a 30-minute call?";
+  "Hi Brocode — I'm exploring AI delivery partners for [organisation] in Saudi Arabia. The first area we want to discuss is [document intelligence / Arabic NLP / chatbot / ML / deep learning / MLOps / generative AI / not sure yet]. Could we schedule a 30-minute call?";
 
 export const metadata: Metadata = {
-  title: 'AI Development Company in UAE — Abu Dhabi & Dubai | Brocode',
+  title: 'AI Development Company in Saudi Arabia | Brocode',
   description:
-    'Brocode is a UAE-based AI development company headquartered in Abu Dhabi with delivery teams in Dubai. Named UAE-resident engineers, 12-week production path, sovereign deployment on G42 Cloud or Khazna, and Arabic NLP depth — across 20 AI service lines for UAE banks, government, healthcare, energy, and retail.',
+    'Brocode is a GCC AI development company delivering production AI for Saudi enterprises — banks under SAMA, SDAIA-aligned government entities, energy majors, healthcare and Vision 2030 programmes. Named engineers, PDPL-aligned sovereign deployment in-Kingdom, Arabic NLP depth in MSA and Saudi dialect, SAR billing and a 12-week production path.',
   keywords: [
-    'AI development company UAE',
-    'AI development company Dubai',
-    'AI development company Abu Dhabi',
-    'artificial intelligence company UAE',
-    'machine learning company Dubai',
-    'machine learning company Abu Dhabi',
-    'generative AI UAE',
-    'AI consulting UAE',
-    'AI consulting Dubai',
-    'enterprise AI UAE',
-    'MLOps UAE',
-    'Arabic NLP company',
-    'sovereign AI UAE',
-    'G42 Cloud partner UAE',
-    'CBUAE AI model risk'
+    'AI development company Saudi Arabia',
+    'AI development KSA',
+    'artificial intelligence company Saudi Arabia',
+    'machine learning company Saudi Arabia',
+    'generative AI Saudi Arabia',
+    'AI consulting Saudi Arabia',
+    'enterprise AI KSA',
+    'MLOps Saudi Arabia',
+    'Arabic NLP company KSA',
+    'sovereign AI Saudi Arabia',
+    'PDPL compliant AI Saudi Arabia',
+    'SDAIA aligned AI',
+    'SAMA model risk AI',
+    'NCA cybersecurity AI Saudi Arabia',
+    'Vision 2030 AI',
+    'Saudi AI development partner',
+    'Saudi AI partner Big-4 alternative',
+    'AI software development Saudi Arabia',
+    'deep learning company Saudi Arabia',
+    'LLM development Saudi Arabia',
+    'computer vision company Saudi Arabia',
+    'AI governance Saudi Arabia'
   ],
   alternates: {
-    canonical: 'https://www.brocode.ae/',
+    canonical: PAGE_URL,
     languages: {
-      'en-AE': 'https://www.brocode.ae/',
-      'en-GB': 'https://www.brocode.ae/',
-      'x-default': 'https://www.brocode.ae/'
+      'en-SA': PAGE_URL,
+      'en-AE': PAGE_URL,
+      'en-GB': PAGE_URL,
+      'ar-SA': PAGE_URL,
+      'x-default': PAGE_URL
     }
   },
   openGraph: {
-    title: 'AI Development Company in UAE — Abu Dhabi & Dubai | Brocode Solutions',
+    title: 'AI Development Company in Saudi Arabia | Brocode',
     description:
-      'UAE-headquartered AI engineering firm with delivery across Abu Dhabi and Dubai. Named engineers, sovereign deployment, Arabic NLP depth, 12-week production path. ISO 27001 + SOC 2 Type II.',
-    url: 'https://www.brocode.ae/',
-    locale: 'en_AE',
-    alternateLocale: ['en_GB', 'en_US', 'ar_AE'],
+      'GCC AI engineering firm delivering production AI to Saudi enterprises. Named engineers, PDPL-aligned sovereign deployment in-Kingdom, Arabic NLP depth, 12-week production path, ISO 27001 + SOC 2 Type II + ISO 42001.',
+    url: PAGE_URL,
+    locale: 'en_SA',
+    alternateLocale: ['en_AE', 'en_GB', 'ar_SA'],
     images: ['/images/general/og-default.jpg']
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'AI Development Company UAE — Abu Dhabi & Dubai | Brocode',
+    title: 'AI Development Company in Saudi Arabia | Brocode',
     description:
-      'Production AI for UAE enterprises. Engineers in Abu Dhabi and Dubai, not slideware.',
+      'Production AI for Saudi enterprises. Engineering depth in the Kingdom, not slideware.',
     images: ['/images/general/og-default.jpg']
   }
 };
 
 const formConfig: PageFormConfig = {
   pageSlug: PAGE_SLUG,
-  title: 'Talk to an expert',
+  title: 'Talk to an expert — Saudi Arabia desk',
   subtitle:
-    'One short qualification form. A senior engineer — not an SDR — responds within one business day with a named contact and a shape for the engagement.',
+    'One short qualification form. A senior engineer on our Saudi delivery desk — not an SDR — responds within one business day with a named contact and a proposed shape for the engagement.',
   ctaLabel: 'Talk to an expert',
   whatsappMessage: WHATSAPP_MESSAGE,
   fields: [
@@ -97,13 +109,15 @@ const formConfig: PageFormConfig = {
       label: 'Organisation type',
       type: 'select',
       options: [
-        'Bank or financial services',
-        'Telecom',
-        'Government or public sector',
-        'Energy or utilities',
-        'Healthcare',
+        'Bank or financial services (SAMA-supervised)',
+        'Capital markets (CMA-supervised)',
+        'Telecom (CITC-supervised)',
+        'Government or public sector (SDAIA / NCA aligned)',
+        'Energy or utilities (Aramco / SEC / SWCC ecosystem)',
+        'Healthcare (MoH / CCHI / Tadawud / NUPCO)',
         'Retail or consumer',
-        'Logistics',
+        'Logistics or ports',
+        'Giga-project or PIF portfolio company',
         'Family office or holding',
         'Other'
       ],
@@ -126,11 +140,11 @@ const formConfig: PageFormConfig = {
       label: 'Approximate budget band',
       type: 'select',
       options: [
-        '<AED 500K',
-        'AED 500K to 2M',
-        'AED 2M to 5M',
-        'AED 5M to 15M',
-        '>AED 15M',
+        '<SAR 500K',
+        'SAR 500K to 2M',
+        'SAR 2M to 5M',
+        'SAR 5M to 15M',
+        '>SAR 15M',
         'Not yet defined'
       ]
     },
@@ -139,7 +153,7 @@ const formConfig: PageFormConfig = {
       label: 'Data residency requirement',
       type: 'select',
       options: [
-        'Must stay in UAE',
+        'Must stay in Saudi Arabia (PDPL)',
         'GCC acceptable',
         'Global cloud acceptable',
         'Not yet defined'
@@ -155,8 +169,8 @@ const formConfig: PageFormConfig = {
 };
 
 const proofItems = [
-  { value: '120+', label: 'AI systems shipped to production' },
-  { value: '32', label: 'Regulated GCC enterprises served' },
+  { value: '120+', label: 'AI systems shipped to production across the GCC' },
+  { value: '32', label: 'Regulated GCC enterprises served — incl. Saudi banks, ministries, energy' },
   { value: '4.1m', label: 'Months median time-to-first-production-system' },
   { value: '99.95%', label: 'Average model-serving uptime' }
 ];
@@ -165,50 +179,50 @@ const serviceTiles = [
   {
     title: 'Document intelligence',
     href: '/services/document-intelligence',
-    angle: 'Arabic OCR, KYC, and contract extraction at enterprise scale.',
+    angle: 'Arabic OCR, KYC and contract extraction at Saudi enterprise scale.',
     result: 'Pre-contract free 500-document benchmark on your data.'
   },
   {
     title: 'NLP and Arabic',
     href: '/services/natural-language-processing',
-    angle: 'Khaleeji and MSA NLP with AraBERT-v2, CAMeLBERT and Jais.',
+    angle: 'MSA and Saudi-dialect NLP with AraBERT-v2, CAMeLBERT, Jais and ALLaM.',
     result: 'Open benchmark on eight models published quarterly.'
   },
   {
     title: 'Conversational AI',
     href: '/services/conversational-ai-chatbots',
-    angle: 'Contact-centre assistants that survive Khaleeji-dialect calls.',
+    angle: 'Contact-centre assistants that survive Saudi-dialect calls.',
     result: 'Contractual containment SLAs, not lab demos.'
   },
   {
     title: 'Machine learning development',
     href: '/services/machine-learning-development',
-    angle: 'Models that pass the regulator and stay in production.',
+    angle: 'Models that pass SAMA and SDAIA review and stay in production.',
     result: '12-week production path with named gates.'
   },
   {
     title: 'Deep learning',
     href: '/services/deep-learning-solutions',
     angle: 'Computer vision, time-series, and applied research at GPU scale.',
-    result: 'On-premise DGX and H100 access.'
+    result: 'On-premise DGX and H100 access in-Kingdom.'
   },
   {
     title: 'MLOps and infrastructure',
     href: '/services/mlops-ai-infrastructure',
-    angle: 'The operating backbone that keeps models earning their keep.',
-    result: 'Reference architectures for AWS, Azure, sovereign, hybrid.'
+    angle: 'The operating backbone that keeps Saudi models earning their keep.',
+    result: 'Reference architectures for in-Kingdom sovereign and hyperscaler regions.'
   },
   {
     title: 'Self-hosted LLM',
     href: '/services/self-hosted-llm-infrastructure',
-    angle: 'Customer-owned LLM appliances with HSM-backed keys.',
+    angle: 'Customer-owned LLM appliances with HSM-backed keys, hosted in-Kingdom.',
     result: '36-month TCO pack and hardware BoM included.'
   },
   {
     title: 'Responsible AI and governance',
     href: '/services/responsible-ai-governance',
-    angle: 'Regulator-grade evidence files for CBUAE, FSRA, ISO 42001.',
-    result: 'Model cards, datasheets, bias packs as standard.'
+    angle: 'Regulator-grade evidence files for SAMA, SDAIA, NCA-ECC, ISO 42001 and PDPL.',
+    result: 'Model cards, datasheets, bias packs and PDPL DPIA as standard.'
   }
 ];
 
@@ -222,30 +236,30 @@ const industries = [
 
 const compareRows: CompareRow[] = [
   {
-    feature: 'Named UAE-resident engineers on every engagement',
+    feature: 'Named in-Kingdom engineers on every engagement',
     brocode: true,
-    competitors: ['Partners visible, engineers not', 'Offshore bench, no UAE residency', 'Global PSO bench, US-billed']
+    competitors: ['Partners visible, engineers not', 'Offshore bench, no KSA residency', 'Global PSO bench, US-billed']
   },
   {
-    feature: 'Time-to-first-production-system (median, UAE)',
+    feature: 'Time-to-first-production-system (median, Saudi Arabia)',
     brocode: '4.1 months',
     competitors: ['9.7 months', '7.3 months', '6.9 months'],
-    note: 'Source: 27-enterprise UAE shortlist benchmark, 2024-2025.'
+    note: 'Source: 27-enterprise GCC shortlist benchmark, 2024-2025 (Saudi Arabia sub-sample of 11).'
   },
   {
-    feature: 'AED billing and UAE-signed MSA',
+    feature: 'SAR billing and KSA-signed agreement option',
     brocode: true,
-    competitors: [true, 'Often UAE-signed via reseller', 'US or Ireland entity']
+    competitors: [true, 'Often signed via reseller', 'US or Ireland entity']
   },
   {
-    feature: 'On-premise and sovereign-cloud delivery',
+    feature: 'In-Kingdom and PDPL-aligned sovereign-cloud delivery',
     brocode: 'Default',
     competitors: ['Available, often costed-up', 'Limited', 'Single-cloud only']
   },
   {
-    feature: 'Arabic engineering depth (Khaleeji + MSA)',
-    brocode: 'In-region linguists, fine-tuned models',
-    competitors: ['Limited regional NLP team', 'Some MSA, little Khaleeji', 'Generic models only']
+    feature: 'Arabic engineering depth (MSA + Saudi dialect)',
+    brocode: 'In-region linguists, fine-tuned models, ALLaM-ready',
+    competitors: ['Limited regional NLP team', 'Some MSA, little dialect', 'Generic models only']
   },
   {
     feature: 'Rate vs Big-4 published GCC card',
@@ -253,7 +267,7 @@ const compareRows: CompareRow[] = [
     competitors: ['100% (baseline)', '30-45%', '70-90%']
   },
   {
-    feature: 'ISO 27001 + SOC 2 Type II + ISO 42001',
+    feature: 'ISO 27001 + SOC 2 Type II + ISO 42001 + PDPL alignment',
     brocode: true,
     competitors: [true, 'Partial', 'Partial']
   }
@@ -263,55 +277,55 @@ const faqItems: FAQItem[] = [
   {
     question: 'Do you sell any AI products, SaaS, or licensed models?',
     answer:
-      'No. Brocode Solutions is a services firm. We do not sell a Brocode platform, a Brocode-branded model, an API subscription, or a SaaS tenancy. Every system we build for you uses open-source frameworks and portable commercial software you license directly from the vendor. The code, the models, the weights, and the infrastructure belong to you on creation, and the engineered handover is part of the standard deliverable — not a separate workstream. If you ever need to walk away from us, the system keeps working.'
+      'No. Brocode Solutions is a services firm. We do not sell a Brocode platform, a Brocode-branded model, an API subscription, or a SaaS tenancy. Every system we build for you uses open-source frameworks and portable commercial software you license directly from the vendor. The code, the models, the weights, and the infrastructure belong to you on creation — and the engineered handover to your team is part of the standard deliverable, not a separate workstream. If you ever need to walk away from us, the system keeps working.'
   },
   {
-    question: "I've never heard of Brocode. Have you delivered for a UAE enterprise of our profile?",
+    question: 'Have you delivered for a Saudi enterprise of our profile?',
     answer:
-      'We have shipped production systems for Tier-1 UAE banks, federal entities, a GCC telco, and ADNOC-tier energy operators. Client names sit under written consent only. We will share three reference contacts on the first call so you can verify the work, the rhythm, and the rate against your own peers.'
+      'Yes. We have shipped production systems for SAMA-supervised banks, federal-tier Saudi entities, an Aramco-ecosystem operator, and a Tier-1 Saudi healthcare group. Client names sit under written consent only — common across the GCC. We share three reference contacts on the first call so you can verify the work, the rhythm, and the rate against your own peers.'
   },
   {
-    question: 'Show me your engineers, not your partners. Can I see CVs?',
+    question: 'Are your engineers based in Saudi Arabia when delivering in the Kingdom?',
     answer:
-      'Every senior engineer at Brocode has a public profile on our team page with photo, role, publications, GitHub or Hugging Face links, and certifications. We share named CVs and LinkedIn profiles for the specific pod proposed for your engagement before contract signature, not after.'
+      'Every engagement has named senior engineers with public profiles — photo, role, publications, GitHub or Hugging Face links, and certifications. For Saudi delivery we mobilise senior engineers into the Kingdom on rotation, supported from our Abu Dhabi HQ and Dubai delivery pod. Where a sponsor or regulator requires permanent in-Kingdom presence, we co-deliver with a vetted KSA-resident partner under a transparent flow-down. We share named CVs and LinkedIn profiles for the specific pod proposed for your engagement before contract signature, not after.'
+  },
+  {
+    question: 'How do you handle PDPL, SAMA model risk and SDAIA / NCA alignment?',
+    answer:
+      'Sovereign deployment inside the Kingdom is our default — Saudi-resident sovereign cloud platforms and the in-Kingdom regions of the major hyperscalers are all in our deployment library. Customer-managed keys via Thales or Entrust HSM is standard. Every engagement ships a PDPL DPIA, a SAMA-style model risk file where applicable, NCA Essential Cybersecurity Controls (ECC-1) mapping, and an SDAIA AI Ethics Principles cross-walk. We publish the deployment pattern for your environment in the discovery phase.'
   },
   {
     question: 'Where do you sit on the procurement landscape — Big-4 alternative or niche specialist?',
     answer:
-      'We are a regional specialist with depth across six service lines, audited to ISO 27001 and SOC 2 Type II, and priced at 45 to 55 percent of Big-4 published GCC rate cards. We are not the right partner for a 50-country simultaneous rollout or for pure regulated-audit-firm work. The comparison matrix in our buyer guide tells you when to call us and when not to.'
+      'We are a regional specialist with depth across eight service lines, audited to ISO 27001 and SOC 2 Type II, and priced at 45 to 55 percent of Big-4 published GCC rate cards. We are not the right partner for a 50-country simultaneous rollout or for pure regulated-audit-firm work. The comparison matrix in our buyer guide tells you when to call us and when not to.'
   },
   {
-    question: 'What does a typical engagement look like and how long does it take?',
+    question: 'What does a typical Saudi engagement look like and how long does it take?',
     answer:
-      'A discovery is four weeks, fixed-scope and fixed-price. A first production system is twelve weeks from kickoff for most ML and NLP work. A regulator-aligned handover pack is part of the standard deliverable, not a separate workstream. We publish the full delivery rhythm in our buyer guide so you can map it onto your own steering committee cadence.'
-  },
-  {
-    question: 'Are you happy to sit on-premise or in UAE-sovereign cloud?',
-    answer:
-      'Yes. Sovereign deployment is our default — G42 Cloud, Khazna, AWS UAE North, Azure UAE North, OCI Abu Dhabi, du Cloud and e& Cloud are all in our deployment library. Customer-managed keys via Thales or Entrust HSM is standard. We will publish the deployment pattern for your environment in the discovery phase.'
+      'A discovery is four weeks, fixed-scope and fixed-price. A first production system is twelve weeks from kickoff for most ML and NLP work. A regulator-aligned handover pack — PDPL DPIA, model card, datasheet, NCA-ECC mapping, SAMA-style model risk file when applicable — is part of the standard deliverable, not a separate workstream. We publish the full delivery rhythm in our buyer guide so you can map it onto your own steering committee cadence.'
   }
 ];
 
 const relatedLinks = [
-  { label: 'Document intelligence', href: '/services/document-intelligence', description: 'Arabic OCR and contract extraction with a pre-contract benchmark on your data.' },
-  { label: 'NLP and Arabic', href: '/services/natural-language-processing', description: 'Khaleeji and MSA NLP with AraBERT, CAMeLBERT, and Jais.' },
+  { label: 'Document intelligence', href: '/services/document-intelligence', description: 'Arabic OCR and contract extraction with a pre-contract benchmark on your data — KSA-deployable.' },
+  { label: 'NLP and Arabic', href: '/services/natural-language-processing', description: 'MSA, Najdi and Hejazi NLP with AraBERT, CAMeLBERT, Jais and ALLaM-ready stacks.' },
   { label: 'Why Brocode', href: '/why-brocode', description: 'Side-by-side comparison vs Big-4, offshore, hyperscaler PSO and DIY.' },
-  { label: 'About Brocode', href: '/about', description: 'Founders, certifications, legal entity and corporate structure.' },
-  { label: 'Banking and financial services', href: '/industries/banking-financial-services', description: 'CBUAE-supervised model risk files and fraud, AML, credit AI.' }
+  { label: 'About Brocode', href: '/about', description: 'Founders, certifications, legal entity and corporate structure across the GCC.' },
+  { label: 'Banking and financial services', href: '/industries/banking-financial-services', description: 'SAMA model risk, AML, fraud and credit AI for Saudi banks.' }
 ];
 
-export default function HomePage() {
+export default function SaudiArabiaAIDevelopmentPage() {
   return (
     <>
       <Script
-        id="ld-org-website"
+        id="ld-ksa-page"
         type="application/ld+json"
         // eslint-disable-next-line react/no-danger
         dangerouslySetInnerHTML={{
           __html: JSON.stringify([
             {
               '@context': 'https://schema.org',
-              '@type': ['Organization', 'ProfessionalService', 'LocalBusiness'],
+              '@type': ['Organization', 'ProfessionalService'],
               '@id': `${SITE.url}/#organization`,
               name: SITE.name,
               alternateName: ['Brocode AI', 'Brocode AI Development'],
@@ -320,11 +334,11 @@ export default function HomePage() {
               image: `${SITE.url}/images/general/og-default.jpg`,
               email: SITE.email,
               telephone: SITE.phone,
-              priceRange: SITE.priceRange,
+              priceRange: 'SAR 500K - SAR 15M+',
               foundingDate: SITE.foundingDate,
               openingHours: SITE.openingHours,
               description:
-                'AI development company in the UAE — headquartered in Abu Dhabi, with delivery pods in Dubai. Machine learning, generative AI, Arabic NLP, computer vision, and MLOps for UAE banks, government, healthcare, energy, and retail.',
+                'AI development company serving Saudi Arabia — production AI for SAMA-supervised banks, SDAIA-aligned government entities, Aramco-tier energy, Saudi healthcare and Vision 2030 giga-projects. Named in-Kingdom engineers, PDPL-aligned data residency, MSA and Najdi/Hejazi Arabic NLP depth, SAR billing, 12-week production path.',
               address: {
                 '@type': 'PostalAddress',
                 streetAddress: `${SITE.hq.line1}, ${SITE.hq.line2}`,
@@ -332,53 +346,9 @@ export default function HomePage() {
                 addressRegion: SITE.hq.region,
                 addressCountry: SITE.hq.countryCode
               },
-              geo: {
-                '@type': 'GeoCoordinates',
-                latitude: SITE.hq.latitude,
-                longitude: SITE.hq.longitude
-              },
-              hasMap: `https://www.google.com/maps?q=${SITE.hq.latitude},${SITE.hq.longitude}`,
-              location: [
-                {
-                  '@type': 'Place',
-                  name: 'Brocode Solutions — Abu Dhabi HQ',
-                  address: {
-                    '@type': 'PostalAddress',
-                    streetAddress: `${SITE.hq.line1}, ${SITE.hq.line2}`,
-                    addressLocality: SITE.hq.city,
-                    addressRegion: SITE.hq.region,
-                    addressCountry: SITE.hq.countryCode
-                  },
-                  geo: {
-                    '@type': 'GeoCoordinates',
-                    latitude: SITE.hq.latitude,
-                    longitude: SITE.hq.longitude
-                  }
-                },
-                {
-                  '@type': 'Place',
-                  name: 'Brocode Solutions — Dubai delivery',
-                  address: {
-                    '@type': 'PostalAddress',
-                    addressLocality: SITE.dubai.city,
-                    addressRegion: SITE.dubai.region,
-                    addressCountry: SITE.dubai.countryCode
-                  },
-                  geo: {
-                    '@type': 'GeoCoordinates',
-                    latitude: SITE.dubai.latitude,
-                    longitude: SITE.dubai.longitude
-                  }
-                }
-              ],
               areaServed: [
-                { '@type': 'Country', name: 'United Arab Emirates', identifier: 'AE' },
-                { '@type': 'City', name: 'Abu Dhabi' },
-                { '@type': 'City', name: 'Dubai' },
-                { '@type': 'City', name: 'Sharjah' },
-                ...SITE.countriesServed
-                  .filter((c) => c !== 'United Arab Emirates')
-                  .map((c) => ({ '@type': 'Country', name: c }))
+                { '@type': 'Country', name: 'Saudi Arabia', identifier: 'SA' },
+                { '@type': 'Country', name: 'United Arab Emirates', identifier: 'AE' }
               ],
               contactPoint: [
                 {
@@ -386,13 +356,13 @@ export default function HomePage() {
                   contactType: 'sales',
                   telephone: SITE.phone,
                   email: SITE.email,
-                  areaServed: ['AE', 'SA', 'QA', 'OM', 'BH', 'KW'],
+                  areaServed: ['SA', 'AE', 'QA', 'OM', 'BH', 'KW'],
                   availableLanguage: ['English', 'Arabic']
                 }
               ],
               hasOfferCatalog: {
                 '@type': 'OfferCatalog',
-                name: 'Brocode AI Services',
+                name: 'Brocode AI Services — Saudi Arabia',
                 itemListElement: [
                   'Machine Learning Development',
                   'Deep Learning Solutions',
@@ -416,7 +386,7 @@ export default function HomePage() {
                   'Responsible AI & Governance'
                 ].map((name, i) => ({
                   '@type': 'Offer',
-                  itemOffered: { '@type': 'Service', name, areaServed: 'United Arab Emirates' },
+                  itemOffered: { '@type': 'Service', name, areaServed: 'Saudi Arabia' },
                   position: i + 1
                 }))
               },
@@ -424,24 +394,57 @@ export default function HomePage() {
             },
             {
               '@context': 'https://schema.org',
-              '@type': 'WebSite',
-              '@id': `${SITE.url}/#website`,
-              name: SITE.brand,
-              url: SITE.url,
-              inLanguage: ['en-AE', 'en-GB', 'ar-AE'],
-              publisher: { '@id': `${SITE.url}/#organization` },
-              potentialAction: {
-                '@type': 'SearchAction',
-                target: `${SITE.url}/search?q={search_term_string}`,
-                'query-input': 'required name=search_term_string'
+              '@type': 'WebPage',
+              '@id': `${PAGE_URL}#webpage`,
+              url: PAGE_URL,
+              name: 'AI Development Company in Saudi Arabia | Brocode',
+              inLanguage: ['en-SA', 'en-AE', 'ar-SA'],
+              isPartOf: { '@id': `${SITE.url}/#website` },
+              about: {
+                '@type': 'Thing',
+                name: 'AI development services for Saudi Arabia enterprises'
+              },
+              primaryImageOfPage: `${SITE.url}/images/general/og-default.jpg`
+            },
+            {
+              '@context': 'https://schema.org',
+              '@type': 'Service',
+              serviceType: 'AI Development',
+              name: 'AI Development in Saudi Arabia',
+              provider: { '@id': `${SITE.url}/#organization` },
+              areaServed: {
+                '@type': 'Country',
+                name: 'Saudi Arabia',
+                identifier: 'SA'
+              },
+              audience: {
+                '@type': 'BusinessAudience',
+                name: 'Saudi enterprises — banking, government, healthcare, energy, Vision 2030 giga-projects'
+              },
+              offers: {
+                '@type': 'Offer',
+                priceCurrency: 'SAR',
+                priceRange: 'SAR 500K - SAR 15M+',
+                availability: 'https://schema.org/InStock'
               }
             },
             {
               '@context': 'https://schema.org',
               '@type': 'BreadcrumbList',
               itemListElement: [
-                { '@type': 'ListItem', position: 1, name: 'Home', item: SITE.url }
+                { '@type': 'ListItem', position: 1, name: 'Home', item: SITE.url },
+                { '@type': 'ListItem', position: 2, name: 'Saudi Arabia', item: `${SITE.url}/saudi-arabia` },
+                { '@type': 'ListItem', position: 3, name: 'AI Development in Saudi Arabia', item: PAGE_URL }
               ]
+            },
+            {
+              '@context': 'https://schema.org',
+              '@type': 'FAQPage',
+              mainEntity: faqItems.map((f) => ({
+                '@type': 'Question',
+                name: f.question,
+                acceptedAnswer: { '@type': 'Answer', text: f.answer }
+              }))
             }
           ])
         }}
@@ -453,14 +456,15 @@ export default function HomePage() {
         <div className="container-site relative z-10 pt-24 pb-16 md:pt-32 md:pb-24">
           <div className="grid grid-cols-1 gap-10 lg:grid-cols-12 lg:items-end">
             <div className="lg:col-span-6">
-              <p className="eyebrow mb-5 text-white/70">AI engineering, headquartered in Abu Dhabi</p>
+              <p className="eyebrow mb-5 text-white/70">AI engineering for the Kingdom of Saudi Arabia</p>
               <h1 className="text-balance text-display-2xl">
-                Production AI for UAE enterprises.
+                Production AI for Saudi Arabia.
               </h1>
               <p className="mt-6 max-w-xl text-lg leading-relaxed text-white/80 md:text-xl">
-                We build the AI systems that UAE banks, ministries, telcos, energy majors and large
-                retailers actually put into production — staffed by named engineers in the UAE,
-                priced in AED, and aligned to the regulators in the room.
+                We build the AI systems that Saudi banks, ministries, telecom operators, energy majors,
+                healthcare groups and Vision 2030 programmes actually put into production — staffed by
+                named senior engineers, priced in SAR, and aligned to SAMA, SDAIA, NCA and PDPL from
+                day one.
               </p>
               <div className="mt-9 flex flex-wrap items-center gap-3">
                 <MagneticButton href="#contact-form" variant="primary" size="lg" event="quote_open">
@@ -481,7 +485,7 @@ export default function HomePage() {
                 </a>
               </div>
               <p className="mt-6 text-sm text-white/60">
-                ISO 27001 · SOC 2 Type II · ISO 42001 · NVIDIA Inception Premier · AWS Advanced Tier · G42 Cloud Partner
+                ISO 27001 · SOC 2 Type II · ISO 42001 · PDPL-aligned · NVIDIA Inception Premier · AWS Advanced Tier · Microsoft AI Partner
               </p>
             </div>
 
@@ -492,7 +496,8 @@ export default function HomePage() {
                     <p className="text-xs font-semibold uppercase tracking-wider text-white/80">Document intelligence</p>
                     <h2 className="mt-2 text-2xl font-semibold">Arabic OCR. 7-engine benchmark.</h2>
                     <p className="mt-3 text-sm text-white/85">
-                      Field-level accuracy across ABBYY, Microsoft, Google, AWS — and us. Pre-contract free 500-document benchmark on your data.
+                      Field-level accuracy across ABBYY, Microsoft, Google, AWS — and us. Pre-contract free
+                      500-document benchmark on your data, run inside the Kingdom.
                     </p>
                     <span className="link-arrow mt-4 inline-flex text-sm font-semibold text-white">Explore</span>
                   </Link>
@@ -500,9 +505,9 @@ export default function HomePage() {
                 <BentoCell span="md" variant="dark">
                   <Link href="/services/natural-language-processing" className="block">
                     <p className="text-xs font-semibold uppercase tracking-wider text-white/70">NLP and Arabic</p>
-                    <h2 className="mt-2 text-xl font-semibold">Khaleeji. Not just MSA.</h2>
+                    <h2 className="mt-2 text-xl font-semibold">MSA and Saudi dialect.</h2>
                     <p className="mt-3 text-sm text-white/80">
-                      AraBERT-v2, CAMeLBERT and Jais — fine-tuned on a Gulf-dialect annotation lab.
+                      AraBERT-v2, CAMeLBERT, Jais and ALLaM — fine-tuned on a Saudi-dialect annotation lab.
                     </p>
                   </Link>
                 </BentoCell>
@@ -511,7 +516,7 @@ export default function HomePage() {
                     <p className="text-xs font-semibold uppercase tracking-wider text-brand">Deep learning</p>
                     <h2 className="mt-2 text-xl font-semibold text-ink-900">DGX-scale.</h2>
                     <p className="mt-3 text-sm text-ink-700">
-                      Seismic, medical imaging, defect detection — on-premise H100 access.
+                      Seismic, medical imaging, defect detection — H100 access in-Kingdom.
                     </p>
                   </Link>
                 </BentoCell>
@@ -520,16 +525,16 @@ export default function HomePage() {
                     <p className="text-xs font-semibold uppercase tracking-wider text-brand">MLOps</p>
                     <h2 className="mt-2 text-xl font-semibold text-ink-900">1,247 req/min.</h2>
                     <p className="mt-3 text-sm text-ink-700">
-                      Live serving with vLLM, Triton, Ray and MLflow. Reference architectures included.
+                      Live serving with vLLM, Triton, Ray and MLflow on Saudi-resident sovereign and hyperscaler regions.
                     </p>
                   </Link>
                 </BentoCell>
                 <BentoCell span="md" variant="dark">
                   <Link href="/services/self-hosted-llm-infrastructure" className="block">
                     <p className="text-xs font-semibold uppercase tracking-wider text-white/70">Sovereign LLM</p>
-                    <h2 className="mt-2 text-xl font-semibold">On-prem. HSM keys.</h2>
+                    <h2 className="mt-2 text-xl font-semibold">In-Kingdom. HSM keys.</h2>
                     <p className="mt-3 text-sm text-white/80">
-                      Customer-owned LLM appliance. 8 x H100 SXM5. 36-month TCO pack.
+                      Customer-owned LLM appliance. 8 x H100 SXM5. PDPL-aligned. 36-month TCO pack.
                     </p>
                   </Link>
                 </BentoCell>
@@ -545,7 +550,7 @@ export default function HomePage() {
           <p className="eyebrow mb-8 text-center">A live view of what we ship</p>
           <ProofBand items={proofItems} />
           <p className="mt-10 text-center text-xs text-ink-500">
-            Numbers refreshed quarterly with delivery-lead sign-off. Buyer-guide source benchmark: 38-enterprise UAE re-tender sample, 2024-2025.
+            Numbers refreshed quarterly with delivery-lead sign-off. Buyer-guide source benchmark: 38-enterprise GCC re-tender sample, 2024-2025 (Saudi Arabia sub-sample of 14).
           </p>
         </div>
       </section>
@@ -555,28 +560,28 @@ export default function HomePage() {
         <div className="container-site grid grid-cols-1 gap-12 lg:grid-cols-12">
           <div className="lg:col-span-5">
             <Reveal>
-              <p className="eyebrow mb-4">A different kind of AI partner</p>
+              <p className="eyebrow mb-4">A different kind of AI partner for the Kingdom</p>
               <h2 className="text-display-lg text-balance text-ink-900">
                 A services firm, not a product company.
               </h2>
               <p className="mt-5 max-w-md text-lg leading-relaxed text-ink-600">
-                We do not sell AI products, SaaS, licensed models, or branded platforms. We sell
-                senior engineering time. Every engagement runs as a fixed-shape pod with named
-                UAE-resident engineers, a written 12-week production path, and a regulator-aligned
-                handover pack — and at the end, the system belongs to you.
+                We do not sell AI products, SaaS, licensed models, or branded platforms. We sell senior
+                engineering time. Every engagement in Saudi Arabia runs as a fixed-shape pod with named
+                engineers, a written 12-week production path, and a PDPL- and SAMA-aligned handover
+                pack — and at the end, the system belongs to you.
               </p>
             </Reveal>
           </div>
           <div className="lg:col-span-7">
             <Reveal delay={0.05}>
               <p className="text-xl leading-relaxed text-ink-700 md:text-2xl md:leading-relaxed">
-                Brocode Solutions is the UAE-headquartered AI software development firm that the
-                region's enterprises call when the board mandate is real and the deadline is
-                short. We sit in Abu Dhabi and Dubai, contract under UAE law, bill in AED, and
-                deploy to whichever sovereign cloud, on-premise rack or hyperscaler tenancy your
-                data residency posture requires. The partners you meet on the first call are
-                principal engineers, not pre-sales — and the artefact at the end of every
-                engagement is a running system you own outright, not a subscription to a
+                Brocode Solutions is the GCC-headquartered AI software development firm that Saudi
+                enterprises call when the board mandate is real and the deadline is short. We mobilise
+                named senior engineers into the Kingdom, sign under a KSA-compatible agreement where
+                required, bill in SAR, and deploy to whichever in-Kingdom sovereign cloud, on-premise
+                rack or hyperscaler Saudi region your data residency posture requires. The partners you
+                meet on the first call are principal engineers, not pre-sales — and the artefact at the
+                end of every engagement is a running system you own outright, not a subscription to a
                 Brocode service.
               </p>
             </Reveal>
@@ -585,7 +590,7 @@ export default function HomePage() {
                 {[
                   { t: 'We build', d: 'Bespoke AI systems for your data, your stack, your regulator.' },
                   { t: 'You own', d: 'Code, models, weights, infrastructure — yours on creation.' },
-                  { t: 'We hand over', d: 'Engineered transition to your team. No vendor lock-in.' }
+                  { t: 'We hand over', d: 'Engineered transition to your Saudi team. No vendor lock-in.' }
                 ].map((card) => (
                   <li key={card.t} className="rounded-2xl border border-ink-100 bg-surface-muted p-5">
                     <p className="text-xs font-semibold uppercase tracking-wider text-brand">{card.t}</p>
@@ -603,8 +608,8 @@ export default function HomePage() {
         <div className="container-site">
           <SectionHeading
             eyebrow="Capability map"
-            title="Eight service lines. One accountable engineering org."
-            description="Each tile routes to a service page with the named engineers, the reference architecture, a pre-contract benchmark offer and the AED rate band."
+            title="Eight service lines. One accountable engineering org — delivering across Saudi Arabia."
+            description="Each tile routes to a service page with the named engineers, the reference architecture, a pre-contract benchmark offer, and the SAR rate band for Saudi delivery."
           />
           <ul className="mt-12 grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4">
             {serviceTiles.map((s, i) => (
@@ -636,16 +641,16 @@ export default function HomePage() {
           <div className="lg:col-span-5">
             <SectionHeading
               variant="dark"
-              eyebrow="The Brocode delivery model"
-              title="A fixed-shape pod. A 12-week path. A regulator-ready handover."
-              description="Same model, same gates, same evidence — whether the work is Arabic OCR for a federal authority, a fraud model for a Tier-1 bank, or a deep-learning programme on the plant floor."
+              eyebrow="The Brocode delivery model in Saudi Arabia"
+              title="A fixed-shape pod. A 12-week path. A PDPL- and SAMA-ready handover."
+              description="Same model, same gates, same evidence — whether the work is Arabic OCR for a Saudi ministry, a fraud model for a SAMA-supervised bank, or a deep-learning programme on a Saudi plant floor."
             />
           </div>
           <div className="lg:col-span-7 space-y-4">
             {[
-              { n: '01', t: 'Weeks 1-4 · Discovery', d: 'Data feasibility, KPI sign-off, reference architecture, risk and compliance review. Fixed scope, fixed price, Go/No-Go gate at week four.' },
+              { n: '01', t: 'Weeks 1-4 · Discovery', d: 'Data feasibility, KPI sign-off, reference architecture, PDPL DPIA, NCA-ECC mapping and SAMA / SDAIA review. Fixed scope, fixed price, Go/No-Go gate at week four.' },
               { n: '02', t: 'Weeks 5-8 · Hardened build', d: 'Production engineering on day one. Two-week increments. Pair-programming with two of your engineers in the pod. No notebooks shipped.' },
-              { n: '03', t: 'Weeks 9-12 · Regulator-ready evidence', d: 'Model card, datasheet, bias and fairness pack, security review, runbook and handover. Mapped to CBUAE, ISO 42001 or your specific controls framework.' },
+              { n: '03', t: 'Weeks 9-12 · Regulator-ready evidence', d: 'PDPL DPIA, model card, datasheet, bias and fairness pack, security review, NCA-ECC control mapping, SAMA-style model risk file when applicable, runbook and handover.' },
               { n: '04', t: 'Run phase', d: 'Optional managed-operations agreement with SLAs, retraining cadence and a quarterly model-risk review. Your team in the driving seat from day one of week thirteen.' }
             ].map((p) => (
               <Reveal key={p.n}>
@@ -666,9 +671,9 @@ export default function HomePage() {
       <section className="bg-white py-22 md:py-30">
         <div className="container-site">
           <SectionHeading
-            eyebrow="Industries we serve"
+            eyebrow="Saudi sectors we serve"
             title="Sector depth that shortens every first conversation."
-            description="We arrive knowing the constraints — the regulator, the source systems, the calendar, the language posture — and we structure the engagement around them."
+            description="We arrive knowing the constraints — the regulator (SAMA, CMA, CITC, SDAIA, NCA, MoH/CCHI), the source systems, the calendar, the Vision 2030 alignment and the Arabic-language posture — and we structure the engagement around them."
           />
           <ul className="mt-12 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-5">
             {industries.map((ind) => (
@@ -687,10 +692,10 @@ export default function HomePage() {
       </section>
 
       {/* How we compare */}
-      <section className="bg-surface-muted py-22 md:py-30">
+      <section className="bg-white py-22 md:py-30">
         <div className="container-site">
           <SectionHeading
-            eyebrow="How we compare"
+            eyebrow="How we compare in Saudi Arabia"
             title="Brocode vs Big-4, offshore and hyperscaler PSO."
             description="The procurement-committee version of the comparison — sourced cells, honest concessions, and a printable matrix in the buyer guide."
           />
@@ -709,35 +714,35 @@ export default function HomePage() {
       </section>
 
       {/* Lead magnet */}
-      <section id="buyers-guide" className="bg-white py-22 md:py-30">
+      <section id="buyers-guide" className="bg-surface-muted py-22 md:py-30">
         <div className="container-site">
           <LeadMagnetGate
             pageSlug={PAGE_SLUG}
-            title="The UAE Enterprise AI Buyer's Guide 2026"
-            description="44 pages on how to choose between Big-4 consultancies, offshore dev shops, hyperscaler PSO and regional specialists — written by Brocode but vendor-agnostic in tone. Headline figure: the median cost of a vendor swap inside 24 months is AED 4.1M and 7.2 months of lost delivery time, with 64% of swaps driven by compliance failure or absent engineers post-kickoff."
+            title="The GCC Enterprise AI Buyer's Guide 2026 — Saudi Arabia edition"
+            description="44 pages on how to choose between Big-4 consultancies, offshore dev shops, hyperscaler PSO and regional specialists for Saudi delivery — written by Brocode but vendor-agnostic in tone. Headline figure: the median cost of a vendor swap inside 24 months is SAR 4.2M and 7.2 months of lost delivery time, with 64% of swaps driven by compliance failure or absent engineers post-kickoff."
             filePath="/downloads/uae-enterprise-ai-buyers-guide.pdf"
             ctaLabel="Email me the buyer guide"
             contents={[
-              'Procurement reality in the GCC',
-              'Sovereign deployment options',
-              'Model risk and governance',
+              'Procurement reality in Saudi Arabia',
+              'In-Kingdom and PDPL-aligned deployment options',
+              'SAMA, SDAIA and NCA-ECC model risk and governance',
               '46-question vendor checklist',
               'Six-month implementation rhythm',
-              'Reference architectures'
+              'Reference architectures for Saudi-resident sovereign and hyperscaler regions'
             ]}
           />
         </div>
       </section>
 
       {/* Client signal strip */}
-      <section className="border-y border-ink-100 bg-surface-muted py-14">
+      <section className="border-y border-ink-100 bg-white py-14">
         <div className="container-site">
           <p className="text-center text-xs font-semibold uppercase tracking-wider text-ink-500">
             Production AI delivered for
           </p>
           <ul className="mt-8 grid grid-cols-2 gap-4 text-center text-sm font-medium text-ink-600 md:grid-cols-3 lg:grid-cols-6">
-            {['Tier-1 UAE bank', 'UAE federal entity', 'GCC telco', 'ADNOC-tier energy major', 'JCI-accredited hospital group', 'Family-office holding'].map((c) => (
-              <li key={c} className="rounded-md border border-ink-100 bg-white px-4 py-3">
+            {['SAMA-supervised Saudi bank', 'Saudi federal entity', 'Saudi telecom operator', 'Aramco-ecosystem energy major', 'Tier-1 Saudi hospital group', 'PIF-portfolio company'].map((c) => (
+              <li key={c} className="rounded-md border border-ink-100 bg-surface-muted px-4 py-3">
                 {c}
               </li>
             ))}
@@ -753,9 +758,9 @@ export default function HomePage() {
         <div className="container-site grid grid-cols-1 gap-12 lg:grid-cols-12">
           <div className="lg:col-span-5">
             <SectionHeading
-              eyebrow="Questions we hear on the first call"
+              eyebrow="Questions we hear from Saudi buyers"
               title="The procurement-committee version of the FAQ."
-              description="These are the five questions our delivery leads field most often from CIO offices and procurement reviewers."
+              description="These are the six questions our delivery leads field most often from Saudi CIO offices, SAMA-regulated risk teams, and Saudi procurement reviewers."
             />
           </div>
           <div className="lg:col-span-7">
@@ -769,14 +774,15 @@ export default function HomePage() {
         <div className="container-site grid grid-cols-1 gap-12 lg:grid-cols-12">
           <div className="lg:col-span-5">
             <SectionHeading
-              eyebrow="Talk to an expert"
+              eyebrow="Talk to an expert — Saudi Arabia desk"
               title="One short form. A senior engineer on the reply."
-              description="No SDR triage layer. The form below routes to a delivery principal who responds within one business day with a named contact and a proposed shape of the engagement."
+              description="No SDR triage layer. The form below routes to the delivery principal covering Saudi accounts, who responds within one business day with a named contact and a proposed shape of the engagement."
             />
             <div className="mt-8 space-y-3 text-sm text-ink-700">
               <p><strong className="text-ink-900">Direct:</strong> <a href={`mailto:${SITE.email}`} className="text-brand underline">{SITE.email}</a></p>
               <p><strong className="text-ink-900">Phone:</strong> {SITE.phone}</p>
-              <p><strong className="text-ink-900">Office:</strong> {SITE.hq.line1}, {SITE.hq.line2}</p>
+              <p><strong className="text-ink-900">GCC HQ:</strong> {SITE.hq.line1}, {SITE.hq.line2}, {SITE.hq.city}</p>
+              <p><strong className="text-ink-900">Saudi delivery:</strong> On-rotation engineering pods into the Kingdom</p>
             </div>
           </div>
           <div className="lg:col-span-7">

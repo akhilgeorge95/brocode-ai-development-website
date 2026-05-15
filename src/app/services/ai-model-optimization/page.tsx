@@ -219,7 +219,7 @@ const serviceJsonLd = {
   serviceType: 'AI Model Optimisation',
   name: 'AI Model Optimisation — Quantisation, Distillation, Edge Inference',
   provider: { '@type': 'Organization', name: 'Brocode Solutions', url: 'https://www.brocode.ae' },
-  areaServed: ['United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Oman', 'Kuwait', 'Bahrain', 'United Kingdom', 'Singapore'],
+  areaServed: ['Abu Dhabi', 'Dubai', 'Sharjah', 'United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Oman', 'Kuwait', 'Bahrain', 'United Kingdom', 'Singapore'],
   description:
     'Production-grade model optimisation across Jetson, Snapdragon, Apple, Hailo, GPU and Inferentia. PTQ, QAT, distillation, pruning, speculative decoding, kernel-level work. Reproducible benchmark harness on GitHub.',
   url: 'https://www.brocode.ae/services/ai-model-optimization'

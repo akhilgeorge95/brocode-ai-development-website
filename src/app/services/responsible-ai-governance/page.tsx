@@ -320,7 +320,7 @@ const serviceJsonLd = {
   serviceType: 'Responsible AI Governance',
   name: 'Responsible AI Governance — Regulator-Grade Evidence and Operating Model',
   provider: { '@type': 'Organization', name: 'Brocode Solutions', url: 'https://www.brocode.ae' },
-  areaServed: ['United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Oman', 'Kuwait', 'Bahrain', 'United Kingdom', 'European Union'],
+  areaServed: ['Abu Dhabi', 'Dubai', 'Sharjah', 'United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Oman', 'Kuwait', 'Bahrain', 'United Kingdom', 'European Union'],
   description:
     'An operating AI governance function — inventory, risk-tiering, bias and explainability evidence, ISO/IEC 42001 conformity, EU AI Act and UAE AI Charter alignment — stood up in 120 days. Independence-preserving Type-II assurance posture.',
   url: 'https://www.brocode.ae/services/responsible-ai-governance'

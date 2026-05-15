@@ -236,7 +236,7 @@ const serviceJsonLd = {
   '@type': 'Service',
   serviceType: 'Retail and e-commerce AI delivery for GCC retailers and marketplaces',
   provider: { '@type': 'Organization', name: 'Brocode Solutions', url: 'https://www.brocode.ae' },
-  areaServed: ['United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Kuwait', 'Bahrain', 'Oman', 'Egypt'],
+  areaServed: ['Abu Dhabi', 'Dubai', 'Sharjah', 'United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Kuwait', 'Bahrain', 'Oman', 'Egypt'],
   audience: {
     '@type': 'Audience',
     audienceType: 'Multi-banner GCC retail groups, brand houses, and digital marketplaces'

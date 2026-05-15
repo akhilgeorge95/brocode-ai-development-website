@@ -7,9 +7,10 @@ import { CTABlock } from '@/components/CTABlock';
 import { INDUSTRY_PAGES } from '@/data';
 
 export const metadata: Metadata = {
-  title: 'Industries — Brocode Solutions',
+  title: 'AI Solutions by Industry — Dubai, Abu Dhabi & the UAE | Brocode',
   description:
-    'AI solutions for the sectors that matter most in the GCC: government, banking, healthcare, retail, manufacturing, energy, real estate, logistics, education, and hospitality.'
+    'Industry-specific AI for UAE enterprises in Abu Dhabi, Dubai and across the GCC: government, banking, healthcare, retail, manufacturing, energy, real estate, logistics, education, and hospitality.',
+  alternates: { canonical: 'https://www.brocode.ae/industries' }
 };
 
 export default function IndustriesIndexPage() {

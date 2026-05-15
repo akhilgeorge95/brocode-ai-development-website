@@ -4,9 +4,9 @@ export const retailEcommerce: LongPage = {
   slug: 'retail-ecommerce',
   category: 'industry',
   title: 'Retail & E-commerce',
-  seoTitle: 'AI for Retail and E-commerce in the UAE and GCC',
+  seoTitle: 'AI for Retail & E-commerce in Dubai, Abu Dhabi & the UAE/GCC',
   seoDescription:
-    'Brocode Solutions builds personalisation, demand forecasting, and store operations AI for UAE and GCC retailers — bilingual, omnichannel, and built for regional brands.',
+    'Brocode Solutions builds personalisation, demand forecasting, and store operations AI for retailers in Abu Dhabi, Dubai, and across the UAE and wider GCC — bilingual, omnichannel, and built for regional brands.',
   eyebrow: 'Retail AI',
   headline: 'AI for retailers who run physical stores, marketplaces, and apps as one business.',
   sub: 'We build personalisation, forecasting, pricing, and store operations AI for UAE and GCC retailers and marketplaces — bilingual, omnichannel, and tuned to the rhythms of the regional shopper.',

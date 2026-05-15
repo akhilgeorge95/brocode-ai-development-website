@@ -260,7 +260,7 @@ const serviceJsonLd = {
   '@type': 'Service',
   serviceType: 'Industrial AI delivery for UAE and KSA manufacturers',
   provider: { '@type': 'Organization', name: 'Brocode Solutions', url: 'https://www.brocode.ae' },
-  areaServed: ['United Arab Emirates', 'Saudi Arabia', 'Bahrain', 'Oman', 'Qatar'],
+  areaServed: ['Abu Dhabi', 'Dubai', 'Sharjah', 'United Arab Emirates', 'Saudi Arabia', 'Bahrain', 'Oman', 'Qatar'],
   audience: {
     '@type': 'Audience',
     audienceType: 'UAE and KSA manufacturers in metals, petrochemicals, pharma, food & beverage, composites, cement and heavy engineering'

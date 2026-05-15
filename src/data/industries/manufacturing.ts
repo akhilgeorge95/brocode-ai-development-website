@@ -4,9 +4,9 @@ export const manufacturing: LongPage = {
   slug: 'manufacturing',
   category: 'industry',
   title: 'Manufacturing',
-  seoTitle: 'Industrial AI and Industry 4.0 for UAE Manufacturers',
+  seoTitle: 'Industrial AI & Industry 4.0 for Manufacturers in Dubai, Abu Dhabi & the UAE',
   seoDescription:
-    'Brocode Solutions builds industrial AI for UAE and GCC manufacturers — predictive maintenance, computer vision QA, and Industry 4.0 systems on the factory floor.',
+    'Brocode Solutions builds industrial AI for manufacturers in Abu Dhabi, Dubai, and across the UAE and wider GCC — predictive maintenance, computer vision QA, and Industry 4.0 systems on the factory floor.',
   eyebrow: 'Industrial AI',
   headline: 'Industrial AI that lives on the factory floor, not in a slide deck.',
   sub: 'We build predictive maintenance, computer vision quality assurance, and Industry 4.0 platforms for UAE and GCC manufacturers — engineered to run inside the plant network, beside the PLCs and historians.',

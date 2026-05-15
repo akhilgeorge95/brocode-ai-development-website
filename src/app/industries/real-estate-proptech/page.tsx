@@ -339,7 +339,7 @@ export default function RealEstateProptechPage() {
       '@type': 'BusinessAudience',
       audienceType: 'UAE master developers, REITs, giga-project offices and facility-management operators'
     },
-    areaServed: ['United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Bahrain', 'Oman'],
+    areaServed: ['Abu Dhabi', 'Dubai', 'Sharjah', 'United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Bahrain', 'Oman'],
     url: 'https://www.brocode.ae/industries/real-estate-proptech',
     description:
       'Real-estate AI for UAE developers, REITs and facility managers — off-plan valuation, leasing pipeline conversion, smart-building intelligence and FM analytics, integrated with Yardi, MRI and the BMS estate.'

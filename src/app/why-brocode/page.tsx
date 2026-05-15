@@ -24,9 +24,9 @@ const WHATSAPP_MESSAGE =
   "Hi Brocode — I'm at shortlist stage for an AI partner at [organisation], evaluating Brocode against [Big-4 / offshore / hyperscaler / other]. Could you walk me through the comparison on a 30-minute call?";
 
 export const metadata: Metadata = {
-  title: 'Why Brocode — Side-by-Side AI Partner Comparison | UAE',
+  title: 'Why Brocode — AI Partner Comparison for UAE (Dubai & Abu Dhabi)',
   description:
-    'A procurement-grade comparison of Brocode vs Big-4, offshore dev shops, hyperscaler PSO and DIY internal build. Six axes, sourced cells, honest concessions.',
+    'A procurement-grade comparison of Brocode vs Big-4, offshore dev shops, hyperscaler PSO and DIY for UAE enterprises in Abu Dhabi, Dubai and the wider GCC. Six axes, sourced cells, honest concessions.',
   alternates: { canonical: 'https://www.brocode.ae/why-brocode' },
   openGraph: {
     title: 'Why Brocode — UAE AI Partner Comparison',

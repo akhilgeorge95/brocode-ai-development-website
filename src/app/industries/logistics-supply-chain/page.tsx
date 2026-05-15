@@ -350,7 +350,7 @@ export default function LogisticsSupplyChainPage() {
       audienceType:
         'UAE and GCC port operators, customs authorities, 3PL/4PL operators, last-mile and freight integrators'
     },
-    areaServed: ['United Arab Emirates', 'Saudi Arabia', 'Oman', 'Qatar', 'Bahrain', 'Kuwait'],
+    areaServed: ['Abu Dhabi', 'Dubai', 'Sharjah', 'United Arab Emirates', 'Saudi Arabia', 'Oman', 'Qatar', 'Bahrain', 'Kuwait'],
     url: 'https://www.brocode.ae/industries/logistics-supply-chain',
     description:
       'Logistics and supply-chain AI built for UAE and GCC operators — last-mile, network planning, customs-risk scoring, port-yard and cold-chain. Integrated with TMS, WMS, POS and customs declaration systems.'

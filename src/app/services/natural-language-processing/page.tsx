@@ -264,7 +264,7 @@ export default function NaturalLanguageProcessingPage() {
     name: 'Arabic and English Natural Language Processing',
     serviceType: 'Bilingual Arabic NLP engineering with Khaleeji dialect coverage',
     provider: { '@type': 'Organization', name: 'Brocode Solutions', url: 'https://www.brocode.ae' },
-    areaServed: ['United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Kuwait', 'Oman', 'Bahrain', 'Egypt', 'Jordan'],
+    areaServed: ['Abu Dhabi', 'Dubai', 'Sharjah', 'United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Kuwait', 'Oman', 'Bahrain', 'Egypt', 'Jordan'],
     description:
       'Production Arabic NLP on Khaleeji dialect and MSA, voice and text, with a pre-contract benchmark on your real conversations. Fine-tuned AraBERT, CAMeLBERT, Jais, and whisper-large-v3 on a UAE-resident annotation lab.',
     url: `https://www.brocode.ae/services/${SLUG}`

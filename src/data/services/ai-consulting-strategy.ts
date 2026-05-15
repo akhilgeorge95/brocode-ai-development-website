@@ -4,9 +4,9 @@ export const aiConsultingStrategy: LongPage = {
   slug: 'ai-consulting-strategy',
   category: 'service',
   title: 'AI Consulting & Strategy',
-  seoTitle: 'AI Consulting and Strategy Services in the UAE',
+  seoTitle: 'AI Consulting & Strategy Services in Dubai, Abu Dhabi & the UAE',
   seoDescription:
-    'Brocode Solutions advises UAE and GCC boards, executive committees, and CIO offices on AI strategy, maturity audits, opportunity assessment, and multi-year roadmaps.',
+    'Brocode Solutions advises boards, executive committees, and CIO offices across Abu Dhabi, Dubai, and the wider UAE/GCC on AI strategy, maturity audits, opportunity assessment, and multi-year roadmaps.',
   eyebrow: 'AI strategy advisory',
   headline: 'AI strategy that survives the board meeting and the budget cycle.',
   sub: 'We help GCC executives turn AI ambition into a defensible roadmap — one grounded in your data reality, regulatory boundaries, and the operating constraints your committees actually scrutinise.',

@@ -4,9 +4,9 @@ export const healthcare: LongPage = {
   slug: 'healthcare',
   category: 'industry',
   title: 'Healthcare',
-  seoTitle: 'AI for Healthcare Providers and Payers in the UAE',
+  seoTitle: 'AI for Healthcare Providers & Payers in Dubai, Abu Dhabi & the UAE',
   seoDescription:
-    'Brocode Solutions builds clinical and operational AI for UAE hospitals, payers, and health authorities — aligned with DOH, MOHAP, SEHA, and JCI standards.',
+    'Brocode Solutions builds clinical and operational AI for hospitals, payers, and health authorities in Abu Dhabi, Dubai, and across the UAE — aligned with DOH, MOHAP, SEHA, DHA, and JCI standards.',
   eyebrow: 'Healthcare AI',
   headline: 'Clinical and operational AI for UAE providers, payers, and authorities.',
   sub: 'We build medical imaging, clinical decision support, EMR intelligence, and operational AI for UAE hospitals and payers — engineered around DOH, MOHAP, SEHA, and JCI expectations.',

@@ -4,9 +4,9 @@ export const machineLearningDevelopment: LongPage = {
   slug: 'machine-learning-development',
   category: 'service',
   title: 'Machine Learning Development',
-  seoTitle: 'Custom Machine Learning Development Services in the UAE',
+  seoTitle: 'Custom Machine Learning Development Services in Dubai, Abu Dhabi & the UAE',
   seoDescription:
-    'Brocode Solutions designs, trains, and deploys production-grade machine learning systems for banks, government bodies, and industrial clients across the UAE and GCC.',
+    'Brocode Solutions designs, trains, and deploys production-grade machine learning systems for banks, government bodies, and industrial clients in Abu Dhabi, Dubai, and across the wider UAE and GCC.',
   eyebrow: 'Machine learning engineering',
   headline: 'Custom machine learning models that move from notebook to production.',
   sub: 'We design, train, and operate machine learning systems that hold up under real traffic, regulator scrutiny, and the realities of GCC data — from Arabic text to industrial telemetry.',

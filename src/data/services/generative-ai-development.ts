@@ -4,9 +4,9 @@ export const generativeAiDevelopment: LongPage = {
   slug: 'generative-ai-development',
   category: 'service',
   title: 'Generative AI Development',
-  seoTitle: 'Generative AI Development Services in the UAE',
+  seoTitle: 'Generative AI Development Services in Dubai, Abu Dhabi & the UAE',
   seoDescription:
-    'Brocode Solutions designs, builds, and operates generative AI applications and platforms for enterprises across banking, government, healthcare, retail, and energy in the UAE and GCC.',
+    'Brocode Solutions designs, builds, and operates generative AI applications and platforms for enterprises across banking, government, healthcare, retail, and energy in Abu Dhabi, Dubai, and the wider UAE and GCC.',
   eyebrow: 'Generative AI engineering',
   headline: 'Generative AI applications engineered for enterprise reality, not demo-day theatre.',
   sub: 'We build retrieval, generation, and orchestration systems that produce trustworthy answers, hold up to audit, and respect the sovereignty and bilingual demands of GCC enterprises.',

@@ -333,7 +333,7 @@ const jsonLdService = {
   '@type': 'Service',
   serviceType: 'AI Agents and Agentic Workflows',
   provider: { '@type': 'Organization', name: 'Brocode Solutions', url: 'https://www.brocode.ae' },
-  areaServed: ['United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Bahrain', 'Kuwait'],
+  areaServed: ['Abu Dhabi', 'Dubai', 'Sharjah', 'United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Bahrain', 'Kuwait'],
   description:
     'Production AI agents that close RPA exceptions for claims, KYC, procurement, expense and credit. Supervisor pattern, replayable traces, regulator-ready audit trail. Three live workflows in 90 days.',
   audience: { '@type': 'Audience', audienceType: 'Chief Operating Officer, Head of Operations, Head of Shared Services' }

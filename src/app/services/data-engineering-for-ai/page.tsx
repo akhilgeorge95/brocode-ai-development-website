@@ -253,7 +253,7 @@ const serviceJsonLd = {
   serviceType: 'Data Engineering for AI',
   name: 'Data Engineering for AI — Lakehouse, Feature Store, Lineage',
   provider: { '@type': 'Organization', name: 'Brocode Solutions', url: 'https://www.brocode.ae' },
-  areaServed: ['United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Oman', 'Kuwait', 'Bahrain'],
+  areaServed: ['Abu Dhabi', 'Dubai', 'Sharjah', 'United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Oman', 'Kuwait', 'Bahrain'],
   description:
     'A production-grade AI-ready data foundation — lakehouse, feature store, contracts, lineage, quality — stood up on Databricks or Snowflake in 90 days. dbt, Iceberg, Feast, OpenLineage, Debezium.',
   url: 'https://www.brocode.ae/services/data-engineering-for-ai'

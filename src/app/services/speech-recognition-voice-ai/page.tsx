@@ -744,7 +744,7 @@ export default function SpeechRecognitionVoiceAiPage() {
             name: 'Arabic & Khaleeji Speech Recognition',
             serviceType: 'Enterprise Arabic ASR and Voice AI',
             provider: { '@type': 'Organization', name: SITE.name, url: SITE.url },
-            areaServed: ['United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Kuwait', 'Bahrain', 'Oman'],
+            areaServed: ['Abu Dhabi', 'Dubai', 'Sharjah', 'United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Kuwait', 'Bahrain', 'Oman'],
             description:
               'Arabic and Khaleeji speech recognition tuned for code-switching and real call audio, deployed inside Genesys / Avaya / Cisco voice estates, with a pre-contract WER benchmark on the customer recordings.',
             url: `${SITE.url}/services/${SLUG}`,

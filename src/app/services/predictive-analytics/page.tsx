@@ -335,7 +335,7 @@ const jsonLdService = {
   '@type': 'Service',
   serviceType: 'Predictive Analytics',
   provider: { '@type': 'Organization', name: 'Brocode Solutions', url: 'https://www.brocode.ae' },
-  areaServed: ['United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Oman', 'Bahrain', 'Kuwait', 'Egypt'],
+  areaServed: ['Abu Dhabi', 'Dubai', 'Sharjah', 'United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Oman', 'Bahrain', 'Kuwait', 'Egypt'],
   description:
     'Demand forecasting, credit risk, churn and working-capital models for GCC enterprises. Foundation forecasters, regulator-grade model cards, in-tenant deployment. Free Forecast Tournament before commitment.',
   audience: { '@type': 'Audience', audienceType: 'Head of FP&A, Head of Credit Risk, Head of Supply Chain' }

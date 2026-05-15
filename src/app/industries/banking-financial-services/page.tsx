@@ -240,7 +240,7 @@ const serviceJsonLd = {
   '@type': 'Service',
   serviceType: 'AI consulting and delivery for CBUAE- and SAMA-supervised banks',
   provider: { '@type': 'Organization', name: 'Brocode Solutions', url: 'https://www.brocode.ae' },
-  areaServed: ['United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Bahrain', 'Kuwait', 'Oman'],
+  areaServed: ['Abu Dhabi', 'Dubai', 'Sharjah', 'United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Bahrain', 'Kuwait', 'Oman'],
   audience: {
     '@type': 'Audience',
     audienceType: 'Banks, asset managers, and CBUAE/SAMA-supervised financial institutions in the GCC'

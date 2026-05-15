@@ -338,7 +338,7 @@ export default function EnergyUtilitiesPage() {
       audienceType:
         'ADNOC group companies, DEWA, TAQA, EWEC, ADWEC, Masdar and Saudi Aramco / SEC peer organisations'
     },
-    areaServed: ['United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Oman', 'Kuwait', 'Bahrain'],
+    areaServed: ['Abu Dhabi', 'Dubai', 'Sharjah', 'United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Oman', 'Kuwait', 'Bahrain'],
     url: 'https://www.brocode.ae/industries/energy-utilities',
     description:
       'Energy and utilities AI built for ADNOC, DEWA, TAQA and GCC peers — refining PdM, grid forecasting, upstream optimisation and OGMP 2.0-aligned methane intelligence.'

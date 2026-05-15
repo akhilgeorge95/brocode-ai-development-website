@@ -22,9 +22,9 @@ const WHATSAPP_MESSAGE =
   "Hi Brocode — I'm interested in a senior ML / deep learning / NLP / MLOps role at Brocode. I'm currently based in [city] and my background is [short summary]. Could we set up an informal 20-minute call before I apply?";
 
 export const metadata: Metadata = {
-  title: 'Careers — Senior ML Engineer Jobs Dubai | Brocode',
+  title: 'Careers — Senior AI & ML Engineer Jobs in Dubai & Abu Dhabi (UAE) | Brocode',
   description:
-    'Named work. On-premise GPU. Published AED bands. Full UAE relocation. Senior ML, deep learning, NLP and MLOps roles for engineers who want to ship production AI.',
+    'Senior AI, ML, deep learning, NLP and MLOps jobs based in Abu Dhabi and Dubai, UAE. Named work. On-premise GPU access. Published AED bands. Full UAE relocation. For engineers who want to ship production AI.',
   alternates: { canonical: 'https://www.brocode.ae/careers' },
   openGraph: {
     title: 'Careers at Brocode — Senior AI Engineering in the UAE',

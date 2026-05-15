@@ -345,7 +345,7 @@ export default function EducationPage() {
       audienceType:
         'UAE Ministry of Education, ADEK, KHDA, SPEA, GEMS, Aldar Education, Taaleem, Bloom, Khalifa University, MBZUAI, NYU AD, Zayed University, AUS and GCC peers'
     },
-    areaServed: ['United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Oman', 'Bahrain', 'Kuwait'],
+    areaServed: ['Abu Dhabi', 'Dubai', 'Sharjah', 'United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Oman', 'Bahrain', 'Kuwait'],
     url: 'https://www.brocode.ae/industries/education',
     description:
       'Education AI built for UAE schools, universities and regulators — Arabic curriculum content generation, adaptive learning, student-success early-warning and administrative automation.'

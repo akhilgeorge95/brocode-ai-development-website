@@ -338,7 +338,7 @@ const jsonLdService = {
     name: 'Brocode Solutions',
     url: 'https://www.brocode.ae'
   },
-  areaServed: ['United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Kuwait', 'Bahrain', 'Egypt'],
+  areaServed: ['Abu Dhabi', 'Dubai', 'Sharjah', 'United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Kuwait', 'Bahrain', 'Egypt'],
   description:
     'Open-weights LLM fine-tuning for AI-mature teams. Khaleeji Arabic data pipeline, GulfBench v2 evaluation, vLLM serving, customer-owned artefacts. Delivered in 8 weeks under a co-build agreement.',
   audience: { '@type': 'Audience', audienceType: 'Head of AI, VP Applied AI, Principal ML Engineer' }

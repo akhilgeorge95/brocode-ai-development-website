@@ -4,9 +4,9 @@ export const dataEngineeringForAi: LongPage = {
   slug: 'data-engineering-for-ai',
   category: 'service',
   title: 'Data Engineering for AI',
-  seoTitle: 'Data Engineering Services for AI in the UAE',
+  seoTitle: 'Data Engineering Services for AI in Dubai, Abu Dhabi & the UAE',
   seoDescription:
-    'Brocode Solutions builds the data foundations AI depends on — lakehouses, feature stores, streaming pipelines, and governance — for UAE and GCC enterprises.',
+    'Brocode Solutions builds the data foundations AI depends on — lakehouses, feature stores, streaming pipelines, and governance — for UAE enterprises in Abu Dhabi, Dubai, and the wider GCC.',
   eyebrow: 'Data foundations for AI',
   headline: 'Engineering the data that AI models actually need.',
   sub: 'Lakehouses, feature stores, streaming pipelines, and governed catalogues built for AI workloads — designed around the data residency, latency, and quality realities of GCC enterprises.',

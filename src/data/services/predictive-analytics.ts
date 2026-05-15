@@ -4,9 +4,9 @@ export const predictiveAnalytics: LongPage = {
   slug: 'predictive-analytics',
   category: 'service',
   title: 'Predictive Analytics',
-  seoTitle: 'Predictive Analytics Services in the UAE & GCC',
+  seoTitle: 'Predictive Analytics Services in Dubai, Abu Dhabi & the UAE/GCC',
   seoDescription:
-    'Brocode Solutions builds forecasting, risk, and decision-support systems for banks, government bodies, and industrial operators across the UAE and wider GCC.',
+    'Brocode Solutions builds forecasting, risk, and decision-support systems for banks, government bodies, and industrial operators across Abu Dhabi, Dubai, and the wider UAE/GCC.',
   eyebrow: 'Forecasting and decision intelligence',
   headline: 'Predictive analytics that decision-makers actually use.',
   sub: 'We build forecasting and risk-scoring systems that connect cleanly to your planning cycles, your operational tooling, and the calls your leaders make every week.',

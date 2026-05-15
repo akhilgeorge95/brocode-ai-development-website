@@ -287,7 +287,7 @@ export default function ComputerVisionPage() {
     name: 'Industrial Computer Vision',
     serviceType: 'Edge AI defect detection, loss prevention, and facility security',
     provider: { '@type': 'Organization', name: 'Brocode Solutions', url: 'https://www.brocode.ae' },
-    areaServed: ['United Arab Emirates', 'Saudi Arabia', 'Oman', 'Qatar', 'Bahrain', 'Kuwait', 'Egypt', 'Jordan'],
+    areaServed: ['Abu Dhabi', 'Dubai', 'Sharjah', 'United Arab Emirates', 'Saudi Arabia', 'Oman', 'Qatar', 'Bahrain', 'Kuwait', 'Egypt', 'Jordan'],
     description:
       'Edge defect detection, retail loss-prevention, and facility security on NVIDIA Jetson with PROFINET / EtherNet/IP integration to Siemens, Rockwell, and Beckhoff PLCs, deployed in 60 days.',
     url: `https://www.brocode.ae/services/${SLUG}`

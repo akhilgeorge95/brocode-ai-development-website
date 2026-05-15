@@ -4,9 +4,9 @@ export const selfHostedLlmInfrastructure: LongPage = {
   slug: 'self-hosted-llm-infrastructure',
   category: 'service',
   title: 'Self-hosted LLM Infrastructure',
-  seoTitle: 'Self-hosted & Sovereign LLM Infrastructure in the UAE',
+  seoTitle: 'Self-hosted & Sovereign LLM Infrastructure in Dubai, Abu Dhabi & the UAE',
   seoDescription:
-    'Brocode Solutions deploys self-hosted large language models on-premise, in private cloud, and within ADGM and DIFC tenants for regulated UAE and GCC enterprises.',
+    'Brocode Solutions deploys self-hosted large language models on-premise, in private cloud, and within ADGM and DIFC tenants for regulated enterprises in Abu Dhabi, Dubai, and across the wider UAE and GCC.',
   eyebrow: 'Sovereign generative AI',
   headline: 'Self-hosted large language models that never leave your boundary.',
   sub: 'We design, deploy, and operate private LLM stacks on-premise, in your VPC, or inside ADGM- and DIFC-resident tenants — for organisations that cannot send data to a public API.',

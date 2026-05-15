@@ -32,9 +32,9 @@ const WHATSAPP_MESSAGES = {
 const WHATSAPP_MESSAGE = WHATSAPP_MESSAGES.sales;
 
 export const metadata: Metadata = {
-  title: 'Contact Brocode Solutions — Direct Lines, Named Humans',
+  title: 'Contact Brocode — AI Development Company in Abu Dhabi & Dubai (UAE)',
   description:
-    'Five named human contacts for sales, partnerships, support, press and careers. No generic info@ inbox. Direct email, direct WhatsApp, written response SLAs per inquiry type.',
+    'Talk to Brocode Solutions — UAE AI development company headquartered in Abu Dhabi (Al Maryah Island, ADGM) with delivery teams in Dubai. Five named human contacts for sales, partnerships, support, press and careers. Direct email, direct WhatsApp, written response SLAs per inquiry type.',
   alternates: { canonical: 'https://www.brocode.ae/contact' },
   openGraph: {
     title: 'Contact Brocode — Named human contacts for every inquiry type',

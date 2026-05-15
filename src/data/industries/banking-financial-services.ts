@@ -4,9 +4,9 @@ export const bankingFinancialServices: LongPage = {
   slug: 'banking-financial-services',
   category: 'industry',
   title: 'Banking & Financial Services',
-  seoTitle: 'AI for Banking and Financial Services in the UAE and GCC',
+  seoTitle: 'AI for Banking & Financial Services in Dubai, Abu Dhabi & the UAE/GCC',
   seoDescription:
-    'Brocode Solutions builds AI for UAE and GCC banks, asset managers, and fintechs — fraud, AML, credit, and customer intelligence under CBUAE, ADGM, and DIFC scrutiny.',
+    'Brocode Solutions builds AI for banks, asset managers, and fintechs in Abu Dhabi, Dubai, and across the UAE and wider GCC — fraud, AML, credit, and customer intelligence under CBUAE, ADGM, and DIFC scrutiny.',
   eyebrow: 'Financial services AI',
   headline: 'AI for banks and fintechs that holds up to CBUAE, ADGM, and DIFC scrutiny.',
   sub: 'We design fraud, AML, credit, and customer intelligence systems for UAE and GCC financial institutions — engineered for Basel III capital reality, regulator oversight, and the speed expected from a digital-first market.',

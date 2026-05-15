@@ -761,7 +761,7 @@ export default function SelfHostedLlmPage() {
             name: 'Sovereign On-Premise LLM Appliance',
             serviceType: 'Customer-owned LLM infrastructure deployment',
             provider: { '@type': 'Organization', name: SITE.name, url: SITE.url },
-            areaServed: ['United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Bahrain', 'Oman', 'Kuwait'],
+            areaServed: ['Abu Dhabi', 'Dubai', 'Sharjah', 'United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Bahrain', 'Oman', 'Kuwait'],
             description:
               'A customer-owned LLM appliance (8x H100 / H200) with customer HSM, customer KMS, customer-held weights. Deployed and STIG-hardened in the customer data centre in 90 days. Zero data egress.',
             url: `${SITE.url}/services/${SLUG}`

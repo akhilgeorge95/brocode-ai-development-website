@@ -4,9 +4,9 @@ export const education: LongPage = {
   slug: 'education',
   category: 'industry',
   title: 'Education',
-  seoTitle: 'AI for Education in the UAE — Schools and Higher Ed',
+  seoTitle: 'AI for Education — Schools & Universities in Dubai, Abu Dhabi & the UAE',
   seoDescription:
-    'Brocode Solutions builds adaptive learning, Arabic content, and operational AI for UAE schools, universities, and EdTech firms — aligned with MoE expectations.',
+    'Brocode Solutions builds adaptive learning, Arabic content, and operational AI for schools, universities, and EdTech firms in Abu Dhabi, Dubai, and across the UAE — aligned with MoE, KHDA, and ADEK expectations.',
   eyebrow: 'Education AI',
   headline: 'AI that helps UAE educators teach better and students learn faster.',
   sub: 'We build adaptive learning, Arabic content, and operational AI for UAE schools, universities, and EdTech firms — engineered around MoE expectations, KHDA and ADEK frameworks, and the MBZUAI ecosystem.',

@@ -280,7 +280,7 @@ const jsonLdService = {
   '@type': 'Service',
   serviceType: 'Conversational AI and Chatbot Development',
   provider: { '@type': 'Organization', name: 'Brocode Solutions', url: 'https://www.brocode.ae' },
-  areaServed: ['United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Kuwait', 'Oman', 'Bahrain', 'Egypt'],
+  areaServed: ['Abu Dhabi', 'Dubai', 'Sharjah', 'United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Kuwait', 'Oman', 'Bahrain', 'Egypt'],
   description:
     'Khaleeji-native conversational AI and chatbots for UAE and KSA contact centres. Integrates with Genesys Cloud, NICE CXone, Temenos, Finacle, FLEXCUBE, UAE PASS. Deflection SLA included.',
   audience: { '@type': 'Audience', audienceType: 'Director of CX, Head of Contact Centre' }

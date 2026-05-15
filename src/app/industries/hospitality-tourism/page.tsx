@@ -336,7 +336,7 @@ export default function HospitalityTourismPage() {
       audienceType:
         'GCC hospitality groups, global flag MEA HQs, tourism authorities, F&B groups, DMCs and OTAs'
     },
-    areaServed: ['United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Bahrain', 'Oman', 'Kuwait'],
+    areaServed: ['Abu Dhabi', 'Dubai', 'Sharjah', 'United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Bahrain', 'Oman', 'Kuwait'],
     url: 'https://www.brocode.ae/industries/hospitality-tourism',
     description:
       'Hospitality and tourism AI built for GCC operators — dynamic pricing, traveller intelligence, multilingual concierge and F&B analytics. Calendar-aware demand on Ramadan, Hajj and DSF.'

@@ -4,9 +4,9 @@ export const realEstateProptech: LongPage = {
   slug: 'real-estate-proptech',
   category: 'industry',
   title: 'Real Estate & PropTech',
-  seoTitle: 'AI for Real Estate and PropTech in the UAE',
+  seoTitle: 'AI for Real Estate & PropTech in Dubai, Abu Dhabi & the UAE',
   seoDescription:
-    'Brocode Solutions builds valuation, smart building, and customer intelligence AI for UAE developers, asset managers, and PropTech firms — aligned with RERA and DLD norms.',
+    'Brocode Solutions builds valuation, smart building, and customer intelligence AI for developers, asset managers, and PropTech firms in Dubai, Abu Dhabi, and across the UAE — aligned with RERA, DLD, and ADGM norms.',
   eyebrow: 'PropTech AI',
   headline: 'AI for the people who design, sell, and operate UAE property.',
   sub: 'We build valuation, smart-building, and customer intelligence AI for UAE developers, asset managers, and PropTech firms — engineered around RERA, DLD, and Abu Dhabi giga-project realities.',

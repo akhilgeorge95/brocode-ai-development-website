@@ -18,9 +18,9 @@ const WHATSAPP_MESSAGE =
   "Hi Brocode — I'm running vendor due diligence on Brocode for [organisation]. Could you put me in touch with your procurement contact for ISO certificates, DPA template and corporate-structure questions?";
 
 export const metadata: Metadata = {
-  title: 'About Brocode Solutions — UAE AI Engineering Firm',
+  title: 'About Brocode Solutions — AI Development Company in Abu Dhabi & Dubai (UAE)',
   description:
-    'Founded 2021. Headquartered in Abu Dhabi. ISO 27001 and SOC 2 Type II audited. Named founders, published team, transparent corporate structure for procurement due diligence.',
+    'Founded 2021. Headquartered on Al Maryah Island, Abu Dhabi (ADGM) with delivery teams in Dubai. ISO 27001 and SOC 2 Type II audited. Named founders, published team, and transparent corporate structure for UAE enterprise procurement due diligence.',
   alternates: { canonical: 'https://www.brocode.ae/about' },
   openGraph: {
     title: 'About Brocode Solutions — UAE AI Engineering Firm',

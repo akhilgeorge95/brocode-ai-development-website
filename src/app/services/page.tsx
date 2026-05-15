@@ -8,9 +8,10 @@ import { SERVICE_PAGES } from '@/data';
 import { ICON_MAP } from '@/components/icons';
 
 export const metadata: Metadata = {
-  title: 'AI Services — Brocode Solutions',
+  title: 'AI Services in Dubai, Abu Dhabi & the UAE — 20 Service Lines | Brocode',
   description:
-    'Twenty enterprise AI services from Brocode Solutions: machine learning, generative AI, computer vision, NLP, MLOps, governance, and more — engineered for the GCC.'
+    'Twenty enterprise AI services from Brocode Solutions delivered across Abu Dhabi, Dubai and the wider UAE/GCC — machine learning, generative AI, computer vision, Arabic NLP, MLOps, governance, and more.',
+  alternates: { canonical: 'https://www.brocode.ae/services' }
 };
 
 const groups = [

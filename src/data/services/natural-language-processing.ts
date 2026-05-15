@@ -4,9 +4,9 @@ export const naturalLanguageProcessing: LongPage = {
   slug: 'natural-language-processing',
   category: 'service',
   title: 'Natural Language Processing',
-  seoTitle: 'Arabic and English NLP Services in the UAE',
+  seoTitle: 'Arabic & English NLP Services in Dubai, Abu Dhabi & the UAE',
   seoDescription:
-    'Brocode Solutions builds bilingual Arabic and English natural language processing systems for banks, government entities, healthcare providers, and retailers across the UAE and GCC.',
+    'Brocode Solutions builds bilingual Arabic and English natural language processing systems for banks, government entities, healthcare providers, and retailers across Abu Dhabi, Dubai, and the wider UAE and GCC.',
   eyebrow: 'Language intelligence',
   headline: 'Bilingual NLP systems that understand Arabic, English, and the way your customers actually write.',
   sub: 'We design language models, classifiers, and information extraction pipelines that work on real GCC data — dialects, code-switching, transliterated names, and the documents your business actually receives.',

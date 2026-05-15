@@ -246,7 +246,7 @@ const serviceJsonLd = {
   '@type': 'Service',
   serviceType: 'Clinical AI delivery for JCI-accredited UAE hospitals',
   provider: { '@type': 'Organization', name: 'Brocode Solutions', url: 'https://www.brocode.ae' },
-  areaServed: ['United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Bahrain', 'Oman', 'Kuwait'],
+  areaServed: ['Abu Dhabi', 'Dubai', 'Sharjah', 'United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Bahrain', 'Oman', 'Kuwait'],
   audience: {
     '@type': 'Audience',
     audienceType: 'JCI-accredited hospitals, hospital groups, and health regulators in the UAE and GCC'

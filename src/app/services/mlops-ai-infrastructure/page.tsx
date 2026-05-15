@@ -693,7 +693,7 @@ export default function MlopsPage() {
             name: 'MLOps & AI Infrastructure',
             serviceType: 'Vendor-neutral MLOps platform build',
             provider: { '@type': 'Organization', name: SITE.name, url: SITE.url },
-            areaServed: ['United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Bahrain', 'Oman'],
+            areaServed: ['Abu Dhabi', 'Dubai', 'Sharjah', 'United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Bahrain', 'Oman'],
             description:
               'A production-grade ML platform — registry, retraining, drift, canary, auto-rollback, governance — delivered in 16 weeks on the customer Kubernetes, on any cloud or on-prem.',
             url: `${SITE.url}/services/${SLUG}`

@@ -4,9 +4,9 @@ export const recommendationSystems: LongPage = {
   slug: 'recommendation-systems',
   category: 'service',
   title: 'Recommendation Systems',
-  seoTitle: 'Recommendation Systems & Personalisation in the UAE',
+  seoTitle: 'Recommendation Systems & Personalisation in Dubai, Abu Dhabi & the UAE',
   seoDescription:
-    'Brocode Solutions builds personalisation and recommendation engines for retailers, banks, media operators, and digital services across the UAE and GCC.',
+    'Brocode Solutions builds personalisation and recommendation engines for retailers, banks, media operators, and digital services across Abu Dhabi, Dubai, and the wider UAE and GCC.',
   eyebrow: 'Personalisation engineering',
   headline: 'Recommendation engines that lift revenue without alienating customers.',
   sub: 'We design personalisation systems that respect privacy, work in Arabic and English, and produce recommendations your merchandisers, bankers, and marketers can defend.',

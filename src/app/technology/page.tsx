@@ -8,9 +8,10 @@ import { TECHNOLOGY_PAGES } from '@/data';
 import { ICON_MAP } from '@/components/icons';
 
 export const metadata: Metadata = {
-  title: 'Technology — Brocode Solutions',
+  title: 'AI Technology Stack & Partners — UAE (Dubai & Abu Dhabi) | Brocode',
   description:
-    'How Brocode Solutions builds AI: our technology stack, AI platform partners, cloud and infrastructure partners, open source contributions, methodology, and QA.'
+    'How Brocode Solutions builds AI for UAE enterprises in Abu Dhabi and Dubai: technology stack, AI platform partners, cloud and sovereign infrastructure (G42 Cloud, Khazna, AWS UAE, Azure UAE), open-source contributions, methodology, and QA.',
+  alternates: { canonical: 'https://www.brocode.ae/technology' }
 };
 
 export default function TechnologyIndexPage() {

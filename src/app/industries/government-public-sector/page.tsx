@@ -230,7 +230,7 @@ const serviceJsonLd = {
     name: 'Brocode Solutions',
     url: 'https://www.brocode.ae'
   },
-  areaServed: ['United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Bahrain', 'Oman'],
+  areaServed: ['Abu Dhabi', 'Dubai', 'Sharjah', 'United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Bahrain', 'Oman'],
   audience: {
     '@type': 'Audience',
     audienceType: 'Government and public-sector entities (UAE federal ministries, emirate authorities, regulators)'

@@ -4,9 +4,9 @@ export const aiIntegrationServices: LongPage = {
   slug: 'ai-integration-services',
   category: 'service',
   title: 'AI Integration Services',
-  seoTitle: 'AI Integration Services for Enterprise Systems in the UAE',
+  seoTitle: 'AI Integration Services for Enterprise Systems — Dubai, Abu Dhabi & the UAE',
   seoDescription:
-    'Brocode Solutions integrates AI models and copilots into core banking, ERP, CRM, claims, and government systems across the UAE and GCC, with security and data residency in mind.',
+    'Brocode Solutions integrates AI models and copilots into core banking, ERP, CRM, claims, and government systems across Abu Dhabi, Dubai, and the UAE — with security and UAE data residency in mind.',
   eyebrow: 'Enterprise AI integration',
   headline: 'Integrate AI into the systems your business already runs on.',
   sub: 'We connect AI models, copilots, and agents into core banking, ERP, CRM, claims, and government platforms so the intelligence reaches the people doing the work, not a separate dashboard nobody opens.',

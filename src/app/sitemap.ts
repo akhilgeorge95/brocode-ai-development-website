@@ -1,9 +1,10 @@
 import type { MetadataRoute } from 'next';
 import { SITE } from '@/lib/site';
 import { SERVICES, INDUSTRIES, TECHNOLOGY, INSIGHTS, ABOUT } from '@/lib/nav';
+import { SAUDI_CITY_SLUGS } from '@/data/saudi-cities';
 
-// Fixed effective date for the site. Bump when the canonical content is revised.
-const LAST_MODIFIED = new Date('2026-01-01');
+// Recomputed on every build/request so search engines see the freshest signal.
+const LAST_MODIFIED = new Date();
 
 type ChangeFrequency = NonNullable<MetadataRoute.Sitemap[number]['changeFrequency']>;
 
@@ -25,6 +26,16 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const routes: RouteSpec[] = [
     // Homepage
     { path: '/', changeFrequency: 'monthly', priority: 1.0 },
+
+    // Country landing pages
+    { path: '/saudi-arabia/ai-development-in-saudi-arabia', changeFrequency: 'monthly', priority: 0.9 },
+
+    // Saudi Arabia city landing pages
+    ...SAUDI_CITY_SLUGS.map((slug) => ({
+      path: `/saudi-arabia/${slug}`,
+      changeFrequency: 'monthly' as ChangeFrequency,
+      priority: 0.8
+    })),
 
     // Core / about routes (from ABOUT) — /security-compliance is included here as core.
     ...ABOUT.map((link) => ({

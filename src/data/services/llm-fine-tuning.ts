@@ -4,9 +4,9 @@ export const llmFineTuning: LongPage = {
   slug: 'llm-fine-tuning',
   category: 'service',
   title: 'LLM Fine-Tuning',
-  seoTitle: 'LLM Fine-Tuning and Adaptation Services in the UAE',
+  seoTitle: 'LLM Fine-Tuning & Adaptation Services in Dubai, Abu Dhabi & the UAE',
   seoDescription:
-    'Brocode Solutions fine-tunes open-weight large language models on enterprise data for banks, government bodies, and regulated clients across the UAE and GCC.',
+    'Brocode Solutions fine-tunes open-weight large language models on enterprise data for banks, government bodies, and regulated clients across Abu Dhabi, Dubai, and the wider UAE and GCC.',
   eyebrow: 'Model adaptation',
   headline: 'Fine-tuned language models that speak your domain, your dialect, and your policy.',
   sub: 'We adapt open-weight foundation models to enterprise data and bilingual operations, so that quality, cost, and sovereignty land where your CIO needs them to.',

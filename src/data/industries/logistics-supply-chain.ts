@@ -4,9 +4,9 @@ export const logisticsSupplyChain: LongPage = {
   slug: 'logistics-supply-chain',
   category: 'industry',
   title: 'Logistics & Supply Chain',
-  seoTitle: 'AI for Logistics and Supply Chain in the UAE',
+  seoTitle: 'AI for Logistics & Supply Chain in Dubai, Abu Dhabi & the UAE',
   seoDescription:
-    'Brocode Solutions builds AI for UAE logistics operators, ports, freight forwarders, and last-mile players — across DP World, Abu Dhabi Ports, customs, and e-commerce flows.',
+    'Brocode Solutions builds AI for UAE logistics operators, ports, freight forwarders, and last-mile players in Abu Dhabi, Dubai, and across the wider Emirates — DP World, Abu Dhabi Ports, customs, and e-commerce flows.',
   eyebrow: 'Logistics AI',
   headline: 'AI for the operators moving goods through the UAE\'s ports, hubs, and last mile.',
   sub: 'We build forecasting, routing, document intelligence, and operational AI for UAE port, freight, customs, and last-mile players — engineered for cross-border flows and the realities of the regional hub model.',

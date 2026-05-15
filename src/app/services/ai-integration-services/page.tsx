@@ -284,7 +284,7 @@ const serviceJsonLd = {
     name: 'Brocode Solutions',
     url: 'https://www.brocode.ae'
   },
-  areaServed: ['United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Oman', 'Kuwait', 'Bahrain'],
+  areaServed: ['Abu Dhabi', 'Dubai', 'Sharjah', 'United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Oman', 'Kuwait', 'Bahrain'],
   description:
     'Embeds AI inside SAP, Oracle, mainframe, IBM i, Temenos, Finacle, Flexcube, Murex, Calypso and Salesforce transactional flows without modifying the systems of record.',
   url: 'https://www.brocode.ae/services/ai-integration-services'

@@ -296,7 +296,7 @@ const jsonLdService = {
   '@type': 'Service',
   serviceType: 'Recommendation Systems',
   provider: { '@type': 'Organization', name: 'Brocode Solutions', url: 'https://www.brocode.ae' },
-  areaServed: ['United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Egypt', 'Kuwait', 'Bahrain'],
+  areaServed: ['Abu Dhabi', 'Dubai', 'Sharjah', 'United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Egypt', 'Kuwait', 'Bahrain'],
   description:
     'Two-tower retrieval, learn-to-rank, contextual bandits and multilingual CLIP for regional Arabic-heavy catalogues. Cold-start, Ramadan-aware, in-tenant deployment with an A/B holdout the CDO can defend.',
   audience: { '@type': 'Audience', audienceType: 'Head of Digital Product, Head of Personalisation, VP Growth' }

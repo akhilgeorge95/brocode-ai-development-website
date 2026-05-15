@@ -4,9 +4,9 @@ export const governmentPublicSector: LongPage = {
   slug: 'government-public-sector',
   category: 'industry',
   title: 'Government & Public Sector',
-  seoTitle: 'AI for Government and Public Sector in the UAE',
+  seoTitle: 'AI for Government & Public Sector — Dubai, Abu Dhabi & the UAE',
   seoDescription:
-    'Brocode Solutions builds AI systems for UAE federal entities, emirate-level authorities, and public service providers — bilingual, sovereign, and audit-ready.',
+    'Brocode Solutions builds AI systems for federal entities, Abu Dhabi and Dubai emirate-level authorities, and public service providers across the UAE — bilingual, sovereign, and audit-ready.',
   eyebrow: 'Public sector AI',
   headline: 'AI that serves residents, respects sovereignty, and stands up to scrutiny.',
   sub: 'We help federal ministries, emirate authorities, and public service providers translate UAE Vision 2031 and the National AI Strategy into systems that improve citizen experience without compromising data residency or accountability.',

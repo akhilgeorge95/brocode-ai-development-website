@@ -4,9 +4,9 @@ export const energyUtilities: LongPage = {
   slug: 'energy-utilities',
   category: 'industry',
   title: 'Energy & Utilities',
-  seoTitle: 'AI for Energy and Utilities in the UAE',
+  seoTitle: 'AI for Energy & Utilities in Abu Dhabi, Dubai & the UAE',
   seoDescription:
-    'Brocode Solutions builds industrial AI for UAE energy and utility operators — oil and gas downstream, grid forecasting, sustainability, and the ADNOC ecosystem.',
+    'Brocode Solutions builds industrial AI for energy and utility operators across Abu Dhabi, Dubai, and the UAE — oil and gas downstream, grid forecasting, sustainability, and the ADNOC, TAQA, and DEWA ecosystems.',
   eyebrow: 'Energy AI',
   headline: 'AI for the operators who run the UAE\'s energy backbone.',
   sub: 'We build predictive, optimisation, and sustainability AI for UAE oil and gas, power, and water operators — engineered around ADNOC-grade safety expectations, grid economics, and Net Zero 2050 targets.',

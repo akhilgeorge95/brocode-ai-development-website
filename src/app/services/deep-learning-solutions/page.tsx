@@ -267,7 +267,7 @@ export default function DeepLearningSolutionsPage() {
     name: 'Deep Learning Solutions',
     serviceType: 'Applied deep-learning research and engineering',
     provider: { '@type': 'Organization', name: 'Brocode Solutions', url: 'https://www.brocode.ae' },
-    areaServed: ['United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Singapore', 'United Kingdom'],
+    areaServed: ['Abu Dhabi', 'Dubai', 'Sharjah', 'United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Singapore', 'United Kingdom'],
     description:
       'A research-to-production pod that delivers transformers, GNNs, U-Nets, PINNs, and foundation-model fine-tunes on the client\'s own on-premise GPU cluster, with Reproducible Research Packs at every milestone.',
     url: `https://www.brocode.ae/services/${SLUG}`

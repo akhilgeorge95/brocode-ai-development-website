@@ -4,9 +4,9 @@ export const mlopsAiInfrastructure: LongPage = {
   slug: 'mlops-ai-infrastructure',
   category: 'service',
   title: 'MLOps & AI Infrastructure',
-  seoTitle: 'MLOps & AI Infrastructure Services in the UAE',
+  seoTitle: 'MLOps & AI Infrastructure Services in Dubai, Abu Dhabi & the UAE',
   seoDescription:
-    'Brocode Solutions designs and operates MLOps platforms and AI infrastructure for enterprises across the UAE and GCC, with sovereign and hybrid deployment options.',
+    'Brocode Solutions designs and operates MLOps platforms and AI infrastructure for enterprises in Abu Dhabi, Dubai, and across the wider UAE/GCC — with sovereign and hybrid deployment options.',
   eyebrow: 'Platform engineering for AI',
   headline: 'MLOps platforms that turn one-off models into a dependable production estate.',
   sub: 'We design and run the infrastructure, pipelines, and operating model that let your AI systems ship safely, monitor themselves, and improve over time.',

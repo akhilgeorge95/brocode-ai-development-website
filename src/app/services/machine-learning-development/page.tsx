@@ -289,7 +289,7 @@ export default function MachineLearningDevelopmentPage() {
     name: 'Machine Learning Development',
     serviceType: 'Production machine learning engineering',
     provider: { '@type': 'Organization', name: 'Brocode Solutions', url: 'https://www.brocode.ae' },
-    areaServed: ['United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Oman', 'Bahrain', 'Egypt', 'Jordan'],
+    areaServed: ['Abu Dhabi', 'Dubai', 'Sharjah', 'United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Oman', 'Bahrain', 'Egypt', 'Jordan'],
     description:
       'A fixed 12-week production ML engagement delivered by a named UAE-resident pod, aligned to CBUAE Model Risk Management Standards and DFSA SEMC guidance.',
     url: `https://www.brocode.ae/services/${SLUG}`

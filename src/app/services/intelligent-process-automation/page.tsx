@@ -282,7 +282,7 @@ const serviceJsonLd = {
   serviceType: 'Intelligent Process Automation',
   name: 'Intelligent Process Automation — RPA + AI for Back-Office Operations',
   provider: { '@type': 'Organization', name: 'Brocode Solutions', url: 'https://www.brocode.ae' },
-  areaServed: ['United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Oman', 'Kuwait', 'Bahrain'],
+  areaServed: ['Abu Dhabi', 'Dubai', 'Sharjah', 'United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Oman', 'Kuwait', 'Bahrain'],
   description:
     'An AI-augmented operations layer that runs alongside UiPath, Blue Prism, Automation Anywhere or Microsoft Power Automate. Eight hardened back-office processes with cost-per-transaction economics.',
   url: 'https://www.brocode.ae/services/intelligent-process-automation'

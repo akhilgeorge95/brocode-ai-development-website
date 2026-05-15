@@ -4,9 +4,9 @@ export const hospitalityTourism: LongPage = {
   slug: 'hospitality-tourism',
   category: 'industry',
   title: 'Hospitality & Tourism',
-  seoTitle: 'AI for Hospitality and Tourism in the UAE and GCC',
+  seoTitle: 'AI for Hospitality & Tourism in Dubai, Abu Dhabi & the UAE/GCC',
   seoDescription:
-    'Brocode Solutions builds traveller intelligence, dynamic pricing, and multilingual concierge AI for UAE and GCC hospitality groups, attractions, and destinations.',
+    'Brocode Solutions builds traveller intelligence, dynamic pricing, and multilingual concierge AI for hospitality groups, attractions, and destinations in Dubai, Abu Dhabi, and across the UAE and wider GCC.',
   eyebrow: 'Hospitality AI',
   headline: 'AI for the people who turn UAE hospitality into a global benchmark.',
   sub: 'We build traveller intelligence, dynamic pricing, and multilingual concierge AI for UAE and GCC hospitality groups, attractions, and destinations — engineered around peak-season economics and a guest base that spans every continent.',

@@ -4,9 +4,9 @@ export const computerVision: LongPage = {
   slug: 'computer-vision',
   category: 'service',
   title: 'Computer Vision',
-  seoTitle: 'Computer Vision Solutions and Engineering in the UAE',
+  seoTitle: 'Computer Vision Solutions & Engineering in Dubai, Abu Dhabi & the UAE',
   seoDescription:
-    'Brocode Solutions builds and deploys computer vision systems for security, manufacturing, healthcare, retail, and government clients across the UAE and GCC.',
+    'Brocode Solutions builds and deploys computer vision systems for security, manufacturing, healthcare, retail, and government clients across Abu Dhabi, Dubai, and the UAE.',
   eyebrow: 'Visual intelligence',
   headline: 'Computer vision systems that work on real cameras, real lighting, and real operations.',
   sub: 'From quality inspection on production lines to identity workflows in government services, we engineer vision pipelines that hold up outside the lab and inside your operating constraints.',

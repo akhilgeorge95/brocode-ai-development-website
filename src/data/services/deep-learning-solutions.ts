@@ -4,9 +4,9 @@ export const deepLearningSolutions: LongPage = {
   slug: 'deep-learning-solutions',
   category: 'service',
   title: 'Deep Learning Solutions',
-  seoTitle: 'Enterprise Deep Learning Solutions in the UAE and GCC',
+  seoTitle: 'Enterprise Deep Learning Solutions in Dubai, Abu Dhabi & the UAE',
   seoDescription:
-    'Brocode Solutions designs and operates deep learning systems for vision, language, signal, and tabular problems across banks, government bodies, and industrial clients in the UAE.',
+    'Brocode Solutions designs and operates deep learning systems for vision, language, signal, and tabular problems across banks, government bodies, and industrial clients in Abu Dhabi, Dubai, and the wider UAE.',
   eyebrow: 'Deep learning engineering',
   headline: 'Neural architectures engineered for the hardest problems in your data.',
   sub: 'When classical models stall, our deep learning teams design custom neural systems that hold up in production, under regulatory scrutiny, and across bilingual Arabic and English workloads.',

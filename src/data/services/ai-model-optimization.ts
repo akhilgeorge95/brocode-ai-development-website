@@ -4,9 +4,9 @@ export const aiModelOptimization: LongPage = {
   slug: 'ai-model-optimization',
   category: 'service',
   title: 'AI Model Optimisation',
-  seoTitle: 'AI Model Optimisation and Inference Tuning in the UAE',
+  seoTitle: 'AI Model Optimisation & Inference Tuning — UAE (Dubai & Abu Dhabi)',
   seoDescription:
-    'Brocode Solutions optimises AI and LLM inference for cost, latency, and accuracy — quantisation, distillation, compilation, and serving tuning for UAE and GCC enterprises.',
+    'Brocode Solutions optimises AI and LLM inference for cost, latency, and accuracy — quantisation, distillation, compilation, and serving tuning for UAE enterprises in Abu Dhabi, Dubai, and the wider GCC.',
   eyebrow: 'Inference and accuracy tuning',
   headline: 'Faster, cheaper, more accurate models in production.',
   sub: 'We squeeze cost, latency, and energy out of AI workloads while improving accuracy on the data that actually matters to your business — through quantisation, distillation, compilation, and serving-layer tuning.',

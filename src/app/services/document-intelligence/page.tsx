@@ -825,7 +825,7 @@ export default function DocumentIntelligencePage() {
               name: SITE.name,
               url: SITE.url
             },
-            areaServed: ['United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Kuwait', 'Bahrain', 'Oman'],
+            areaServed: ['Abu Dhabi', 'Dubai', 'Sharjah', 'United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Kuwait', 'Bahrain', 'Oman'],
             description:
               'Production Arabic OCR including handwritten correspondence, KYC packs, and judicial archives — deployed on sovereign infrastructure with a pre-contract benchmark on the customer corpus.',
             url: `${SITE.url}/services/${SLUG}`,

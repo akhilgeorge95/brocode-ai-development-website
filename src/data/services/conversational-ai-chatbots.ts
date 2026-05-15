@@ -4,9 +4,9 @@ export const conversationalAiChatbots: LongPage = {
   slug: 'conversational-ai-chatbots',
   category: 'service',
   title: 'Conversational AI & Chatbots',
-  seoTitle: 'Conversational AI and Chatbot Development in the UAE',
+  seoTitle: 'Conversational AI & Chatbot Development in Dubai, Abu Dhabi & the UAE',
   seoDescription:
-    'Brocode Solutions designs and operates bilingual Arabic and English conversational AI assistants and chatbots for banks, government services, healthcare, retail, and utilities in the UAE and GCC.',
+    'Brocode Solutions designs and operates bilingual Arabic and English conversational AI assistants and chatbots for banks, government services, healthcare, retail, and utilities in Abu Dhabi, Dubai, and across the UAE and GCC.',
   eyebrow: 'Conversational AI',
   headline: 'Bilingual virtual agents that handle real customer conversations, not scripted demos.',
   sub: 'We build conversational assistants that understand Gulf-dialect Arabic, hold context across channels, and escalate gracefully when a human is the right answer.',

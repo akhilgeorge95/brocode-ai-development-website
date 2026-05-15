@@ -4,9 +4,9 @@ export const intelligentProcessAutomation: LongPage = {
   slug: 'intelligent-process-automation',
   category: 'service',
   title: 'Intelligent Process Automation',
-  seoTitle: 'Intelligent Process Automation Services in the UAE',
+  seoTitle: 'Intelligent Process Automation Services in Dubai, Abu Dhabi & the UAE',
   seoDescription:
-    'Brocode Solutions combines RPA, AI, and decision intelligence to automate claims, KYC, procurement, and back-office workflows for UAE banks, insurers, and government bodies.',
+    'Brocode Solutions combines RPA, AI, and decision intelligence to automate claims, KYC, procurement, and back-office workflows for banks, insurers, and government bodies in Abu Dhabi, Dubai, and across the wider UAE.',
   eyebrow: 'RPA meets AI',
   headline: 'Automate the decisions, not just the clicks.',
   sub: 'We combine RPA, machine learning, document intelligence, and decision engines to automate the judgement-heavy workflows that traditional automation cannot reach — KYC, claims, procurement, and case handling.',

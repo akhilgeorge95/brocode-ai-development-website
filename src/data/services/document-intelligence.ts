@@ -4,9 +4,9 @@ export const documentIntelligence: LongPage = {
   slug: 'document-intelligence',
   category: 'service',
   title: 'Document Intelligence',
-  seoTitle: 'Arabic Document Intelligence & OCR Services in the UAE',
+  seoTitle: 'Arabic Document Intelligence & OCR Services in Dubai, Abu Dhabi & the UAE',
   seoDescription:
-    'Brocode Solutions builds Arabic OCR, bilingual document extraction, and intelligent document processing for banks, government, legal, and healthcare clients across the UAE.',
+    'Brocode Solutions builds Arabic OCR, bilingual document extraction, and intelligent document processing for banks, government, legal, and healthcare clients across Abu Dhabi, Dubai, and the UAE.',
   eyebrow: 'Arabic and bilingual document processing',
   headline: 'Document intelligence engineered for Arabic, English, and the paperwork in between.',
   sub: 'We build OCR, extraction, and intelligent document processing pipelines that read Arabic and English with equal care — handwritten, stamped, scanned, or scrolled.',

@@ -291,7 +291,7 @@ export default function GenerativeAiDevelopmentPage() {
     name: 'Generative AI Development',
     serviceType: 'Enterprise GenAI capability build with sovereign deployment and risk-committee governance',
     provider: { '@type': 'Organization', name: 'Brocode Solutions', url: 'https://www.brocode.ae' },
-    areaServed: ['United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Kuwait', 'Bahrain', 'Egypt', 'Pakistan'],
+    areaServed: ['Abu Dhabi', 'Dubai', 'Sharjah', 'United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Kuwait', 'Bahrain', 'Egypt', 'Pakistan'],
     description:
       'A 12-week production path that takes a board-sponsored GenAI taskforce from prototype to three boardable use cases live behind the firewall, with sovereign deployment and a risk-committee-grade governance pack.',
     url: `https://www.brocode.ae/services/${SLUG}`

@@ -4,9 +4,9 @@ export const aiAgentsAgenticWorkflows: LongPage = {
   slug: 'ai-agents-agentic-workflows',
   category: 'service',
   title: 'AI Agents & Agentic Workflows',
-  seoTitle: 'AI Agents and Agentic Workflow Development in the UAE',
+  seoTitle: 'AI Agents & Agentic Workflow Development in Dubai, Abu Dhabi & the UAE',
   seoDescription:
-    'Brocode Solutions designs and operates production AI agents and agentic workflows for banks, government bodies, and enterprises across the UAE and GCC, with strict governance and human oversight.',
+    'Brocode Solutions designs and operates production AI agents and agentic workflows for banks, government bodies, and enterprises across Abu Dhabi, Dubai, and the wider UAE and GCC — with strict governance and human oversight.',
   eyebrow: 'Agentic systems',
   headline: 'AI agents that complete real work under real controls, not autonomous experiments.',
   sub: 'We design multi-step agentic workflows that act inside your systems with the authentication, audit, and human checkpoints regulated enterprises require.',

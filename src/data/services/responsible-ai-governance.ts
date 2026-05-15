@@ -4,9 +4,9 @@ export const responsibleAiGovernance: LongPage = {
   slug: 'responsible-ai-governance',
   category: 'service',
   title: 'Responsible AI & Governance',
-  seoTitle: 'Responsible AI and Governance Services in the UAE',
+  seoTitle: 'Responsible AI & Governance Services in Dubai, Abu Dhabi & the UAE',
   seoDescription:
-    'Brocode Solutions designs responsible AI programmes aligned with the EU AI Act, ISO/IEC 42001, UAE AI Charter, and model risk management standards for UAE and GCC enterprises.',
+    'Brocode Solutions designs responsible AI programmes aligned with the EU AI Act, ISO/IEC 42001, UAE AI Charter, and model risk management standards for enterprises in Abu Dhabi, Dubai, and across the wider UAE and GCC.',
   eyebrow: 'AI governance and assurance',
   headline: 'AI you can defend to the board, the regulator, and the public.',
   sub: 'We design responsible AI programmes that satisfy the EU AI Act, ISO/IEC 42001, the UAE AI Charter, and the model risk expectations of GCC central banks — without strangling the teams trying to deliver.',

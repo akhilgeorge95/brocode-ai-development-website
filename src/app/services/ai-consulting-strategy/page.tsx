@@ -787,7 +787,7 @@ export default function AiConsultingPage() {
             name: 'AI Consulting & Strategy Sprint',
             serviceType: '8-week partner-led AI strategy and roadmap engagement',
             provider: { '@type': 'Organization', name: SITE.name, url: SITE.url },
-            areaServed: ['United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Bahrain', 'Oman', 'Kuwait'],
+            areaServed: ['Abu Dhabi', 'Dubai', 'Sharjah', 'United Arab Emirates', 'Saudi Arabia', 'Qatar', 'Bahrain', 'Oman', 'Kuwait'],
             description:
               'A partner-led 8-week AI strategy sprint delivering a board-grade 24-month roadmap — five-lens diagnostic, bottom-up value-pool model, regulator-mapped workstreams, named senior pod, with a builder behind every page.',
             url: `${SITE.url}/services/${SLUG}`
