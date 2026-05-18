@@ -2,6 +2,7 @@ import type { MetadataRoute } from 'next';
 import { SITE } from '@/lib/site';
 import { SERVICES, INDUSTRIES, TECHNOLOGY, INSIGHTS, ABOUT } from '@/lib/nav';
 import { SAUDI_CITY_SLUGS } from '@/data/saudi-cities';
+import { OMANI_CITY_SLUGS } from '@/data/oman-cities';
 
 // Recomputed on every build/request so search engines see the freshest signal.
 const LAST_MODIFIED = new Date();
@@ -34,6 +35,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     // Saudi Arabia city landing pages
     ...SAUDI_CITY_SLUGS.map((slug) => ({
       path: `/saudi-arabia/${slug}`,
+      changeFrequency: 'monthly' as ChangeFrequency,
+      priority: 0.8
+    })),
+
+    // Oman city landing pages
+    ...OMANI_CITY_SLUGS.map((slug) => ({
+      path: `/oman/${slug}`,
       changeFrequency: 'monthly' as ChangeFrequency,
       priority: 0.8
     })),
