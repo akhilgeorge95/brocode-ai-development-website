@@ -4,6 +4,7 @@ import { SERVICES, INDUSTRIES, TECHNOLOGY, INSIGHTS, ABOUT } from '@/lib/nav';
 import { SAUDI_CITY_SLUGS } from '@/data/saudi-cities';
 import { OMANI_CITY_SLUGS } from '@/data/oman-cities';
 import { QATARI_CITY_SLUGS } from '@/data/qatar-cities';
+import { KUWAITI_CITY_SLUGS } from '@/data/kuwait-cities';
 
 // Recomputed on every build/request so search engines see the freshest signal.
 const LAST_MODIFIED = new Date();
@@ -52,6 +53,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     // Qatar city landing pages
     ...QATARI_CITY_SLUGS.map((slug) => ({
       path: `/qatar/${slug}`,
+      changeFrequency: 'monthly' as ChangeFrequency,
+      priority: 0.8
+    })),
+
+    // Kuwait city landing pages
+    ...KUWAITI_CITY_SLUGS.map((slug) => ({
+      path: `/kuwait/${slug}`,
       changeFrequency: 'monthly' as ChangeFrequency,
       priority: 0.8
     })),
