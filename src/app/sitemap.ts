@@ -35,6 +35,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { path: '/oman/ai-development-in-oman', changeFrequency: 'monthly', priority: 0.9 },
     { path: '/qatar/ai-development-in-qatar', changeFrequency: 'monthly', priority: 0.9 },
     { path: '/kuwait/ai-development-in-kuwait', changeFrequency: 'monthly', priority: 0.9 },
+    { path: '/bahrain/ai-development-in-bahrain', changeFrequency: 'monthly', priority: 0.9 },
 
     // Saudi Arabia city landing pages
     ...SAUDI_CITY_SLUGS.map((slug) => ({
