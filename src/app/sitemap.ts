@@ -5,6 +5,7 @@ import { SAUDI_CITY_SLUGS } from '@/data/saudi-cities';
 import { OMANI_CITY_SLUGS } from '@/data/oman-cities';
 import { QATARI_CITY_SLUGS } from '@/data/qatar-cities';
 import { KUWAITI_CITY_SLUGS } from '@/data/kuwait-cities';
+import { BAHRAINI_CITY_SLUGS } from '@/data/bahrain-cities';
 
 // Recomputed on every build/request so search engines see the freshest signal.
 const LAST_MODIFIED = new Date();
@@ -61,6 +62,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     // Kuwait city landing pages
     ...KUWAITI_CITY_SLUGS.map((slug) => ({
       path: `/kuwait/${slug}`,
+      changeFrequency: 'monthly' as ChangeFrequency,
+      priority: 0.8
+    })),
+
+    // Bahrain city landing pages
+    ...BAHRAINI_CITY_SLUGS.map((slug) => ({
+      path: `/bahrain/${slug}`,
       changeFrequency: 'monthly' as ChangeFrequency,
       priority: 0.8
     })),
